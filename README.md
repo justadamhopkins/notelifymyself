@@ -1,1 +1,1 @@
-# notelifymyself a note taking app 
+# notelifymyself a note taking app

@@ -7,14 +7,14 @@ const app = express()
 
 app.use(bodyParser.json())
 
-mongoose.connect(process.env.databaseUrl, {useNewUrlParser: true});
+mongoose.connect(process.env.databaseUrl, { useNewUrlParser: true })
 
 const db = mongoose.connection
 
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
+db.on('error', console.error.bind(console, 'connection error:'))
+db.once('open', () => {
   console.log('we\'re connected!')
-});
+})
 
 app.use((req, res, next) => {
   console.log(req.originalUrl)

@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import App from 'app/containers/App'
+import { App } from '.'
 
 describe('<App/>', () => {
   it('Should render component', () => {
