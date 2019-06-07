@@ -32,15 +32,11 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              sourcemaps: true
+              sourcemaps: true,
+              modules: true,
+              localIdentName: '[name]__[local]___[hash:base64:5]'
             }
           },
-          {
-            loader: 'sass-loader',
-            options: {
-              sourcemaps: true
-            }
-          }
         ]
       },
       {

@@ -2,8 +2,9 @@ const webpack = require('webpack')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
-const NODE_ENV = process.env.NODE_ENV || 'development'
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
+const NODE_ENV = process.env.NODE_ENV || 'development'
 
 module.exports = {
   mode: 'production',
@@ -33,13 +34,9 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              sourcemaps: true
-            }
-          },
-          {
-            loader: 'sass-loader',
-            options: {
-              sourcemaps: true
+              sourcemaps: true,
+              modules: true,
+              localIdentName: '[name]__[local]___[hash:base64:5]'
             }
           }
         ]
@@ -65,6 +62,7 @@ module.exports = {
     new Dotenv({
       path: '.env.prd'
     }),
+    new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
       title: 'Output Management',
       template: path.join(__dirname, '/src/index.html'),

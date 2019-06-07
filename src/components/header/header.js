@@ -1,9 +1,11 @@
 import React from 'react'
-
+import styles from './styles.css'
 const Header = () => {
   return (
-    <header>
-    </header>
+    <div className={styles.app}>
+      <header>
+      </header>
+    </div>
   )
 }
 
