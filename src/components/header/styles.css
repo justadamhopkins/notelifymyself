@@ -1,4 +1,6 @@
+@import '../../styleconfig/colors.css';
+
 .app header {
-  background-color: red;
+  background-color: primary;
   height: 100px;
 }

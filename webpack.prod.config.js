@@ -38,6 +38,14 @@ module.exports = {
               modules: true,
               localIdentName: '[name]__[local]___[hash:base64:5]'
             }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: path.join(__dirname, '/postcss.config.js')
+              }
+            }
           }
         ]
       },
