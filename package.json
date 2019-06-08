@@ -45,6 +45,8 @@
     "final-form": "^4.13.1",
     "http-proxy": "^1.17.0",
     "mongoose": "^5.5.12",
+    "postcss": "^7.0.17",
+    "postcss-modules-values": "^3.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-final-form": "^6.0.1",
