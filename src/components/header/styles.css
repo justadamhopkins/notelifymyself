@@ -1,6 +1,0 @@
-@import '../../styleconfig/colors.css';
-
-.app header {
-  background-color: var(--secondary);
-  height: 100px;
-}
