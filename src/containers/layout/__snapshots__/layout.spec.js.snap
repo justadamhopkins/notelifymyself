@@ -17,7 +17,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "sideDrawToggle": [MockFunction],
+      "sideDrawToggle": [Function],
       "sideDrawVisible": false,
     },
     "ref": null,
@@ -151,7 +151,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "sideDrawToggle": [MockFunction],
+        "sideDrawToggle": [Function],
         "sideDrawVisible": false,
       },
       "ref": null,
@@ -306,7 +306,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__linkedRoots__): Array [],
   Symbol(enzyme.__unrendered__): <Layout
-    sideDrawToggle={[MockFunction]}
+    sideDrawToggle={[Function]}
     sideDrawVisible={false}
   />,
   Symbol(enzyme.__updatedBy__): null,
