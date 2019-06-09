@@ -22,10 +22,9 @@
       "jsx"
     ],
     "moduleNameMapper": {
-      "^.+\\.(css|scss|png)$": "<rootDir>/test/cssStub.js",
       "app/(.*)$": "<rootDir>/src/$1",
       "\\.(jpg|jpeg|png|gif|webp|svg)$": "identity-obj-proxy",
-      "\\.(css|scss)$": "<rootDir>/test/identity-obj-proxy.js"
+      "\\.(css|scss)$": "identity-obj-proxy"
     }
   },
   "repository": {
