@@ -1,25 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Layout/> Should render component 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Layout />,
+ReactWrapper {
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
+    "getWrappingComponentRenderer": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
+  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": Array [
-        <Header />,
-        <main />,
-      ],
+      "sideDrawToggle": [MockFunction],
+      "sideDrawVisible": false,
     },
     "ref": null,
     "rendered": Array [
@@ -27,22 +26,124 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "isVisible": false,
+          "sideDrawToggle": [Function],
+        },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": <header>
+            <div
+              class=" "
+            >
+              <div />
+              <div />
+              <div />
+            </div>
+          </header>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Hamburger
+              animateHamBurger={false}
+              toggleSideDraw={[Function]}
+            />,
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "animateHamBurger": false,
+                "toggleSideDraw": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": <div
+                  class=" "
+                >
+                  <div />
+                  <div />
+                  <div />
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div />,
+                    <div />,
+                    <div />,
+                  ],
+                  "className": " ",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": <div />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": <div />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": "header",
+        },
         "type": [Function],
       },
       Object {
-        "instance": null,
+        "instance": <main />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {},
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          undefined,
+        ],
         "type": "main",
       },
     ],
-    "type": Symbol(react.fragment),
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -50,10 +151,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": Array [
-          <Header />,
-          <main />,
-        ],
+        "sideDrawToggle": [MockFunction],
+        "sideDrawVisible": false,
       },
       "ref": null,
       "rendered": Array [
@@ -61,30 +160,155 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "isVisible": false,
+            "sideDrawToggle": [Function],
+          },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": <header>
+              <div
+                class=" "
+              >
+                <div />
+                <div />
+                <div />
+              </div>
+            </header>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Hamburger
+                animateHamBurger={false}
+                toggleSideDraw={[Function]}
+              />,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "animateHamBurger": false,
+                  "toggleSideDraw": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": <div
+                    class=" "
+                  >
+                    <div />
+                    <div />
+                    <div />
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div />,
+                      <div />,
+                      <div />,
+                    ],
+                    "className": " ",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <div />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": <div />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": <div />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "header",
+          },
           "type": [Function],
         },
         Object {
-          "instance": null,
+          "instance": <main />,
           "key": undefined,
           "nodeType": "host",
           "props": Object {},
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            undefined,
+          ],
           "type": "main",
         },
       ],
-      "type": Symbol(react.fragment),
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <Layout
+    sideDrawToggle={[MockFunction]}
+    sideDrawVisible={false}
+  />,
+  Symbol(enzyme.__updatedBy__): null,
 }
 `;
