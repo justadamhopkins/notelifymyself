@@ -1,24 +1,26 @@
-import React, { useState } from 'react'
+import React, { Component } from 'react'
 import { Header } from '../../components/navigation/header'
 
-const Layout = () => {
-  const [sideDrawVisible, setDrawState] = useState(false)
-
-
-  const sideDrawToggleHandler = () => {
-    console.log('fired')
-    setDrawState(!sideDrawVisible)
+class Layout extends Component {
+  state = {
+    sideDrawVisible: false
   }
 
-  return (
-    <React.Fragment>
-      <Header
-      sideDrawToggle={sideDrawToggleHandler}
-      isVisible={sideDrawVisible}/>
-      <main>
-      </main>
-    </React.Fragment>
-  )
+  sideDrawToggleHandler = () => {
+    this.setState({ sideDrawVisible: !this.state.sideDrawVisible })
+  }
+
+  render() {
+    return (
+      <React.Fragment>
+        <Header
+          sideDrawToggle={this.sideDrawToggleHandler}
+          isVisible={this.state.sideDrawVisible}
+        />
+        <main />
+      </React.Fragment>
+    )
+  }
 }
 
 export default Layout
