@@ -1,26 +1,23 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { Header } from '../../components/navigation/header'
 
-class Layout extends Component {
-  state = {
-    sideDrawVisible: false
+const Layout = () => {
+  const [sideDrawVisible, setDrawState] = useState(false)
+
+
+  const sideDrawToggleHandler = () => {
+    setDrawState(!sideDrawVisible)
   }
 
-  sideDrawToggleHandler = () => {
-    this.setState({ sideDrawVisible: !this.state.sideDrawVisible })
-  }
-
-  render() {
-    return (
-      <React.Fragment>
-        <Header
-          sideDrawToggle={this.sideDrawToggleHandler}
-          isVisible={this.state.sideDrawVisible}
-        />
-        <main />
-      </React.Fragment>
-    )
-  }
+  return (
+    <React.Fragment>
+      <Header
+        sideDrawToggle={sideDrawToggleHandler}
+        isVisible={sideDrawVisible}
+      />
+      <main />
+    </React.Fragment>
+  )
 }
 
 export default Layout

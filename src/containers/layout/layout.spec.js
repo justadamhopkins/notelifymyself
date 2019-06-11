@@ -15,9 +15,21 @@ describe('<Layout/>', () => {
   })
   it('sideDrawToggleHandler toggles the sidedraw state', () => {
     const layout = mount(<Layout/>)
-    const instance = layout.instance()
-    instance.sideDrawToggleHandler()
+    // const instance = layout.instance()
+    // instance.sideDrawToggleHandler()
+    layout.find('.Hamburger').simulate('click')
+    console.log(layout.debug())
     layout.update()
     expect(layout.find('.animated').exists()).toBe(true)
   })
 })
+
+
+
+// it('sideDrawToggleHandler toggles the sidedraw state', () => {
+//   const layout = mount(<Layout/>)
+//   const instance = layout.instance()
+//   instance.sideDrawToggleHandler()
+//   layout.update()
+//   expect(layout.find('.animated').exists()).toBe(true)
+// })
