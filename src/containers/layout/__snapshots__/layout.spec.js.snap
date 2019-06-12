@@ -25,12 +25,58 @@ ReactWrapper {
         "nodeType": "function",
         "props": Object {
           "isVisible": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": <div
+            class="Sidedraw close"
+          >
+            <h1>
+              hrjfrhjfhrfh
+            </h1>
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              hrjfrhjfhrfh
+            </h1>,
+            "className": "Sidedraw close",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <h1>
+                hrjfrhjfhrfh
+              </h1>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "hrjfrhjfhrfh",
+              },
+              "ref": null,
+              "rendered": Array [
+                "hrjfrhjfhrfh",
+              ],
+              "type": "h1",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "isVisible": false,
           "sideDrawToggle": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": <header
-            class="Header"
+            class="Header close"
           >
             <div
               class="Hamburger "
@@ -53,7 +99,7 @@ ReactWrapper {
               animateHamBurger={false}
               toggleSideDraw={[Function]}
             />,
-            "className": "Header",
+            "className": "Header close",
           },
           "ref": null,
           "rendered": Array [
@@ -158,7 +204,9 @@ ReactWrapper {
         "instance": <main />,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {},
+        "props": Object {
+          "children": undefined,
+        },
         "ref": null,
         "rendered": Array [
           undefined,
@@ -182,12 +230,58 @@ ReactWrapper {
           "nodeType": "function",
           "props": Object {
             "isVisible": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": <div
+              class="Sidedraw close"
+            >
+              <h1>
+                hrjfrhjfhrfh
+              </h1>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1>
+                hrjfrhjfhrfh
+              </h1>,
+              "className": "Sidedraw close",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <h1>
+                  hrjfrhjfhrfh
+                </h1>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "hrjfrhjfhrfh",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "hrjfrhjfhrfh",
+                ],
+                "type": "h1",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "isVisible": false,
             "sideDrawToggle": [Function],
           },
           "ref": null,
           "rendered": Object {
             "instance": <header
-              class="Header"
+              class="Header close"
             >
               <div
                 class="Hamburger "
@@ -210,7 +304,7 @@ ReactWrapper {
                 animateHamBurger={false}
                 toggleSideDraw={[Function]}
               />,
-              "className": "Header",
+              "className": "Header close",
             },
             "ref": null,
             "rendered": Array [
@@ -315,7 +409,9 @@ ReactWrapper {
           "instance": <main />,
           "key": undefined,
           "nodeType": "host",
-          "props": Object {},
+          "props": Object {
+            "children": undefined,
+          },
           "ref": null,
           "rendered": Array [
             undefined,
