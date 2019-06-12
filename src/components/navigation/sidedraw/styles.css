@@ -1,10 +1,11 @@
+@import '../../../styleconfig/colors.css';
+
 .Sidedraw {
   height: 100%;
   position: fixed;
-  z-index: -1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: var(--purple);
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;

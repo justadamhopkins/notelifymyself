@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import { Header } from '../../components/navigation/header'
 import { Sidedraw } from '../../components/navigation/sidedraw'
 
-const Layout = () => {
+const Layout = (props) => {
   const [sideDrawVisible, setDrawState] = useState(false)
 
   const sideDrawToggleHandler = () => {
@@ -11,15 +12,21 @@ const Layout = () => {
 
   return (
     <React.Fragment>
-      <Header
+      <Sidedraw
+        isVisible={sideDrawVisible}/>
+        <Header
         sideDrawToggle={sideDrawToggleHandler}
         isVisible={sideDrawVisible}
       />
-      <Sidedraw
-        isVisible={sideDrawVisible}/>
-      <main />
+      <main>
+      {props.children}
+      </main>
     </React.Fragment>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired
 }
 
 export default Layout

@@ -5,7 +5,7 @@ import styles from './styles.css'
 
 const Header = ({ sideDrawToggle, isVisible }) => {
   return (
-      <header className={styles.Header}>
+      <header className={[styles.Header, isVisible ? styles.open : styles.close].join(' ')}>
         <Hamburger
         toggleSideDraw={sideDrawToggle}
         animateHamBurger={isVisible}/>
