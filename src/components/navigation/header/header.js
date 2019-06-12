@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Hamburger } from '../sideDraw/hamburger'
+import { Hamburger } from '../sidedraw/hamburger'
 import styles from './styles.css'
 
 const Header = ({ sideDrawToggle, isVisible }) => {
