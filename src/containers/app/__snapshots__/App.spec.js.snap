@@ -22,7 +22,6 @@ ShallowWrapper {
         <Layout />,
         <Fetch />,
       ],
-      "className": "test",
     },
     "ref": null,
     "rendered": Array [
@@ -57,7 +56,6 @@ ShallowWrapper {
           <Layout />,
           <Fetch />,
         ],
-        "className": "test",
       },
       "ref": null,
       "rendered": Array [
