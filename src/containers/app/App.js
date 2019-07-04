@@ -4,7 +4,7 @@ import { Layout } from '../layout'
 import Fetch from '../fetch'
 
 const App = () => (
-  <div className='test'>
+  <div>
     <Layout/>
     <Fetch/>
   </div>
