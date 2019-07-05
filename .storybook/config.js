@@ -17,7 +17,7 @@ addParameters({
     panelPosition: 'bottom',
     enableShortcuts: true,
     isToolshown: true,
-    theme: themes.dark,
+    theme: themes.light,
   },
 });
 
