@@ -1,12 +1,15 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
 import { Layout } from '../layout'
+import { Cards } from '../cards'
 import Fetch from '../fetch'
 
 const App = () => (
   <div>
-    <Layout/>
-    <Fetch/>
+    <Layout>
+      <Cards/>
+      <Fetch/>
+    </Layout>
   </div>
 )
 
