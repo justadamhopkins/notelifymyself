@@ -18,6 +18,6 @@ describe('<Layout/>', () => {
     layout.find('.Hamburger').simulate('click')
     layout.update()
     expect(layout.find('.animated').exists()).toBe(true)
-    expect(layout.find('.open').length).toBe(2)
+    expect(layout.find('.open').length).toBe(3)
   })
 })

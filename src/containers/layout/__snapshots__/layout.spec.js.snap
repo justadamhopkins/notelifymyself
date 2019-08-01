@@ -31,34 +31,213 @@ ReactWrapper {
           "instance": <div
             class="Sidedraw close"
           >
-            <h1>
-              hrjfrhjfhrfh
-            </h1>
+            <ul
+              class="NavigationItems"
+            >
+              <li>
+                Test 1
+              </li>
+              <li>
+                Test 1
+              </li>
+              <li>
+                Test 1
+              </li>
+              <li>
+                Test 1
+              </li>
+              <li>
+                Test 1
+              </li>
+            </ul>
           </div>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
-              hrjfrhjfhrfh
-            </h1>,
+            "children": <NavigationItems />,
             "className": "Sidedraw close",
           },
           "ref": null,
           "rendered": Array [
             Object {
-              "instance": <h1>
-                hrjfrhjfhrfh
-              </h1>,
+              "instance": null,
               "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "hrjfrhjfhrfh",
-              },
+              "nodeType": "function",
+              "props": Object {},
               "ref": null,
-              "rendered": Array [
-                "hrjfrhjfhrfh",
-              ],
-              "type": "h1",
+              "rendered": Object {
+                "instance": <ul
+                  class="NavigationItems"
+                >
+                  <li>
+                    Test 1
+                  </li>
+                  <li>
+                    Test 1
+                  </li>
+                  <li>
+                    Test 1
+                  </li>
+                  <li>
+                    Test 1
+                  </li>
+                  <li>
+                    Test 1
+                  </li>
+                </ul>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <NavigationItem>
+                      Test 1
+                    </NavigationItem>,
+                    <NavigationItem>
+                      Test 1
+                    </NavigationItem>,
+                    <NavigationItem>
+                      Test 1
+                    </NavigationItem>,
+                    <NavigationItem>
+                      Test 1
+                    </NavigationItem>,
+                    <NavigationItem>
+                      Test 1
+                    </NavigationItem>,
+                  ],
+                  "className": "NavigationItems",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Test 1",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": <li>
+                        Test 1
+                      </li>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Test 1",
+                      ],
+                      "type": "li",
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Test 1",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": <li>
+                        Test 1
+                      </li>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Test 1",
+                      ],
+                      "type": "li",
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Test 1",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": <li>
+                        Test 1
+                      </li>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Test 1",
+                      ],
+                      "type": "li",
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Test 1",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": <li>
+                        Test 1
+                      </li>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Test 1",
+                      ],
+                      "type": "li",
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Test 1",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": <li>
+                        Test 1
+                      </li>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Test 1",
+                      ],
+                      "type": "li",
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": [Function],
             },
           ],
           "type": "div",
@@ -201,17 +380,31 @@ ReactWrapper {
         "type": [Function],
       },
       Object {
-        "instance": <main />,
+        "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
           "children": undefined,
+          "isVisible": false,
         },
         "ref": null,
-        "rendered": Array [
-          undefined,
-        ],
-        "type": "main",
+        "rendered": Object {
+          "instance": <main
+            class="Wrapper close"
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "Wrapper close",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "main",
+        },
+        "type": [Function],
       },
     ],
     "type": [Function],
@@ -236,34 +429,213 @@ ReactWrapper {
             "instance": <div
               class="Sidedraw close"
             >
-              <h1>
-                hrjfrhjfhrfh
-              </h1>
+              <ul
+                class="NavigationItems"
+              >
+                <li>
+                  Test 1
+                </li>
+                <li>
+                  Test 1
+                </li>
+                <li>
+                  Test 1
+                </li>
+                <li>
+                  Test 1
+                </li>
+                <li>
+                  Test 1
+                </li>
+              </ul>
             </div>,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <h1>
-                hrjfrhjfhrfh
-              </h1>,
+              "children": <NavigationItems />,
               "className": "Sidedraw close",
             },
             "ref": null,
             "rendered": Array [
               Object {
-                "instance": <h1>
-                  hrjfrhjfhrfh
-                </h1>,
+                "instance": null,
                 "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "hrjfrhjfhrfh",
-                },
+                "nodeType": "function",
+                "props": Object {},
                 "ref": null,
-                "rendered": Array [
-                  "hrjfrhjfhrfh",
-                ],
-                "type": "h1",
+                "rendered": Object {
+                  "instance": <ul
+                    class="NavigationItems"
+                  >
+                    <li>
+                      Test 1
+                    </li>
+                    <li>
+                      Test 1
+                    </li>
+                    <li>
+                      Test 1
+                    </li>
+                    <li>
+                      Test 1
+                    </li>
+                    <li>
+                      Test 1
+                    </li>
+                  </ul>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <NavigationItem>
+                        Test 1
+                      </NavigationItem>,
+                      <NavigationItem>
+                        Test 1
+                      </NavigationItem>,
+                      <NavigationItem>
+                        Test 1
+                      </NavigationItem>,
+                      <NavigationItem>
+                        Test 1
+                      </NavigationItem>,
+                      <NavigationItem>
+                        Test 1
+                      </NavigationItem>,
+                    ],
+                    "className": "NavigationItems",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <li>
+                          Test 1
+                        </li>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Test 1",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Test 1",
+                        ],
+                        "type": "li",
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <li>
+                          Test 1
+                        </li>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Test 1",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Test 1",
+                        ],
+                        "type": "li",
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <li>
+                          Test 1
+                        </li>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Test 1",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Test 1",
+                        ],
+                        "type": "li",
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <li>
+                          Test 1
+                        </li>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Test 1",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Test 1",
+                        ],
+                        "type": "li",
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Test 1",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <li>
+                          Test 1
+                        </li>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Test 1",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Test 1",
+                        ],
+                        "type": "li",
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "ul",
+                },
+                "type": [Function],
               },
             ],
             "type": "div",
@@ -406,17 +778,31 @@ ReactWrapper {
           "type": [Function],
         },
         Object {
-          "instance": <main />,
+          "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
             "children": undefined,
+            "isVisible": false,
           },
           "ref": null,
-          "rendered": Array [
-            undefined,
-          ],
-          "type": "main",
+          "rendered": Object {
+            "instance": <main
+              class="Wrapper close"
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "Wrapper close",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "main",
+          },
+          "type": [Function],
         },
       ],
       "type": [Function],

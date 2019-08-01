@@ -19,7 +19,31 @@ ReactWrapper {
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <div />,
+      "instance": <div>
+        <div
+          class="Card"
+        >
+          <div
+            class="CardTitle"
+          >
+            <div
+              class="CardImage"
+            >
+              <img
+                src="https://placeimg.com/80/80/animals"
+              />
+            </div>
+            <div>
+              <h5>
+                My Card Title
+              </h5>
+              <p>
+                My Card Subtitle
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
@@ -33,7 +57,188 @@ ReactWrapper {
           "nodeType": "function",
           "props": Object {},
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": <div
+              class="Card"
+            >
+              <div
+                class="CardTitle"
+              >
+                <div
+                  class="CardImage"
+                >
+                  <img
+                    src="https://placeimg.com/80/80/animals"
+                  />
+                </div>
+                <div>
+                  <h5>
+                    My Card Title
+                  </h5>
+                  <p>
+                    My Card Subtitle
+                  </p>
+                </div>
+              </div>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <CardTitle />,
+              "className": "Card",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": Object {
+                  "instance": <div
+                    class="CardTitle"
+                  >
+                    <div
+                      class="CardImage"
+                    >
+                      <img
+                        src="https://placeimg.com/80/80/animals"
+                      />
+                    </div>
+                    <div>
+                      <h5>
+                        My Card Title
+                      </h5>
+                      <p>
+                        My Card Subtitle
+                      </p>
+                    </div>
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="CardImage"
+                      >
+                        <img
+                          src="https://placeimg.com/80/80/animals"
+                        />
+                      </div>,
+                      <div>
+                        <h5>
+                          My Card Title
+                        </h5>
+                        <p>
+                          My Card Subtitle
+                        </p>
+                      </div>,
+                    ],
+                    "className": "CardTitle",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <div
+                        class="CardImage"
+                      >
+                        <img
+                          src="https://placeimg.com/80/80/animals"
+                        />
+                      </div>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <img
+                          src="https://placeimg.com/80/80/animals"
+                        />,
+                        "className": "CardImage",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <img
+                            src="https://placeimg.com/80/80/animals"
+                          />,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "src": "https://placeimg.com/80/80/animals",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "img",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": <div>
+                        <h5>
+                          My Card Title
+                        </h5>
+                        <p>
+                          My Card Subtitle
+                        </p>
+                      </div>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h5>
+                            My Card Title
+                          </h5>,
+                          <p>
+                            My Card Subtitle
+                          </p>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <h5>
+                            My Card Title
+                          </h5>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "My Card Title",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "My Card Title",
+                          ],
+                          "type": "h5",
+                        },
+                        Object {
+                          "instance": <p>
+                            My Card Subtitle
+                          </p>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "My Card Subtitle",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "My Card Subtitle",
+                          ],
+                          "type": "p",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
           "type": [Function],
         },
       ],
@@ -49,7 +254,31 @@ ReactWrapper {
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <div />,
+        "instance": <div>
+          <div
+            class="Card"
+          >
+            <div
+              class="CardTitle"
+            >
+              <div
+                class="CardImage"
+              >
+                <img
+                  src="https://placeimg.com/80/80/animals"
+                />
+              </div>
+              <div>
+                <h5>
+                  My Card Title
+                </h5>
+                <p>
+                  My Card Subtitle
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
@@ -63,7 +292,188 @@ ReactWrapper {
             "nodeType": "function",
             "props": Object {},
             "ref": null,
-            "rendered": null,
+            "rendered": Object {
+              "instance": <div
+                class="Card"
+              >
+                <div
+                  class="CardTitle"
+                >
+                  <div
+                    class="CardImage"
+                  >
+                    <img
+                      src="https://placeimg.com/80/80/animals"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      My Card Title
+                    </h5>
+                    <p>
+                      My Card Subtitle
+                    </p>
+                  </div>
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <CardTitle />,
+                "className": "Card",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": <div
+                      class="CardTitle"
+                    >
+                      <div
+                        class="CardImage"
+                      >
+                        <img
+                          src="https://placeimg.com/80/80/animals"
+                        />
+                      </div>
+                      <div>
+                        <h5>
+                          My Card Title
+                        </h5>
+                        <p>
+                          My Card Subtitle
+                        </p>
+                      </div>
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="CardImage"
+                        >
+                          <img
+                            src="https://placeimg.com/80/80/animals"
+                          />
+                        </div>,
+                        <div>
+                          <h5>
+                            My Card Title
+                          </h5>
+                          <p>
+                            My Card Subtitle
+                          </p>
+                        </div>,
+                      ],
+                      "className": "CardTitle",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <div
+                          class="CardImage"
+                        >
+                          <img
+                            src="https://placeimg.com/80/80/animals"
+                          />
+                        </div>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <img
+                            src="https://placeimg.com/80/80/animals"
+                          />,
+                          "className": "CardImage",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <img
+                              src="https://placeimg.com/80/80/animals"
+                            />,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "src": "https://placeimg.com/80/80/animals",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "img",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": <div>
+                          <h5>
+                            My Card Title
+                          </h5>
+                          <p>
+                            My Card Subtitle
+                          </p>
+                        </div>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <h5>
+                              My Card Title
+                            </h5>,
+                            <p>
+                              My Card Subtitle
+                            </p>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <h5>
+                              My Card Title
+                            </h5>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "My Card Title",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "My Card Title",
+                            ],
+                            "type": "h5",
+                          },
+                          Object {
+                            "instance": <p>
+                              My Card Subtitle
+                            </p>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "My Card Subtitle",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "My Card Subtitle",
+                            ],
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
             "type": [Function],
           },
         ],

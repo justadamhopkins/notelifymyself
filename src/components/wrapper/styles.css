@@ -1,0 +1,13 @@
+.Wrapper {
+  padding:20px;
+}
+
+.open {
+  margin-left: 25%;
+  transition: margin-left .5s;
+}
+
+.close {
+  margin-left: 0;
+  transition: margin-left .5s;
+}
