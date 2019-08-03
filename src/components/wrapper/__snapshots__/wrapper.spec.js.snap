@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Header/> Should render component 1`] = `
+exports[`<Wrapper/> Should render component 1`] = `
 ReactWrapper {
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],

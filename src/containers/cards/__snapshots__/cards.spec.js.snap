@@ -42,6 +42,11 @@ ReactWrapper {
               </p>
             </div>
           </div>
+          <div>
+            <img
+              src="https://placeimg.com/250/200/animals"
+            />
+          </div>
         </div>
       </div>,
       "key": undefined,
@@ -80,11 +85,19 @@ ReactWrapper {
                   </p>
                 </div>
               </div>
+              <div>
+                <img
+                  src="https://placeimg.com/250/200/animals"
+                />
+              </div>
             </div>,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <CardTitle />,
+              "children": Array [
+                <CardTitle />,
+                <CardImage />,
+              ],
               "className": "Card",
             },
             "ref": null,
@@ -236,6 +249,47 @@ ReactWrapper {
                 },
                 "type": [Function],
               },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": Object {
+                  "instance": <div>
+                    <img
+                      src="https://placeimg.com/250/200/animals"
+                    />
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      src="https://placeimg.com/250/200/animals"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <img
+                        src="https://placeimg.com/250/200/animals"
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "src": "https://placeimg.com/250/200/animals",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "img",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
             ],
             "type": "div",
           },
@@ -277,6 +331,11 @@ ReactWrapper {
                 </p>
               </div>
             </div>
+            <div>
+              <img
+                src="https://placeimg.com/250/200/animals"
+              />
+            </div>
           </div>
         </div>,
         "key": undefined,
@@ -315,11 +374,19 @@ ReactWrapper {
                     </p>
                   </div>
                 </div>
+                <div>
+                  <img
+                    src="https://placeimg.com/250/200/animals"
+                  />
+                </div>
               </div>,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <CardTitle />,
+                "children": Array [
+                  <CardTitle />,
+                  <CardImage />,
+                ],
                 "className": "Card",
               },
               "ref": null,
@@ -465,6 +532,47 @@ ReactWrapper {
                           },
                         ],
                         "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": <div>
+                      <img
+                        src="https://placeimg.com/250/200/animals"
+                      />
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        src="https://placeimg.com/250/200/animals"
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <img
+                          src="https://placeimg.com/250/200/animals"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "src": "https://placeimg.com/250/200/animals",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "img",
                       },
                     ],
                     "type": "div",

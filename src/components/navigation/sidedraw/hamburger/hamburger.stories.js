@@ -4,7 +4,7 @@ import { withKnobs, boolean } from '@storybook/addon-knobs'
 import { Hamburger } from '.'
 
 
-const stories = storiesOf('Hamburger', module);
+const stories = storiesOf('Hamburger', module)
 
 stories.addDecorator(withKnobs)
 
