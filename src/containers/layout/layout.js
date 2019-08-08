@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Sidedraw } from '../../components/navigation/sidedraw'
 import { Wrapper } from '../../components/wrapper'
 
-const Layout = (props) => {
+const Layout = ({ children }) => {
   const [sideDrawVisible, setDrawState] = useState(false)
 
   const sideDrawToggleHandler = () => {
@@ -15,7 +15,7 @@ const Layout = (props) => {
       <Sidedraw
         isVisible={sideDrawVisible}/>
       <Wrapper
-        children={props.children}
+        children={children}
         isVisible={sideDrawVisible}
         toggleSideDraw={sideDrawToggleHandler}/>
     </React.Fragment>
