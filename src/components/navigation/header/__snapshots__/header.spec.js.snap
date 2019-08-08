@@ -19,7 +19,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <Hamburger />,
-      "className": "Header close",
+      "className": "Header",
     },
     "ref": null,
     "rendered": Object {
@@ -43,7 +43,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <Hamburger />,
-        "className": "Header close",
+        "className": "Header",
       },
       "ref": null,
       "rendered": Object {

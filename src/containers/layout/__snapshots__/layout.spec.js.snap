@@ -249,36 +249,45 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "children": undefined,
           "isVisible": false,
-          "sideDrawToggle": [Function],
+          "toggleSideDraw": [Function],
         },
         "ref": null,
         "rendered": Object {
-          "instance": <header
-            class="Header close"
+          "instance": <div
+            class="Wrapper close"
           >
-            <div
-              class="Hamburger "
+            <header
+              class="Header"
             >
               <div
-                class="bar1"
-              />
-              <div
-                class="bar2"
-              />
-              <div
-                class="bar3"
-              />
-            </div>
-          </header>,
+                class="Hamburger "
+              >
+                <div
+                  class="bar1"
+                />
+                <div
+                  class="bar2"
+                />
+                <div
+                  class="bar3"
+                />
+              </div>
+            </header>
+            <main />
+          </div>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Hamburger
-              animateHamBurger={false}
-              toggleSideDraw={[Function]}
-            />,
-            "className": "Header close",
+            "children": Array [
+              <Header
+                isVisible={false}
+                sideDrawToggle={[Function]}
+              />,
+              <main />,
+            ],
+            "className": "Wrapper close",
           },
           "ref": null,
           "rendered": Array [
@@ -287,122 +296,151 @@ ReactWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "animateHamBurger": false,
-                "toggleSideDraw": [Function],
+                "isVisible": false,
+                "sideDrawToggle": [Function],
               },
               "ref": null,
               "rendered": Object {
-                "instance": <div
-                  class="Hamburger "
+                "instance": <header
+                  class="Header"
                 >
                   <div
-                    class="bar1"
-                  />
-                  <div
-                    class="bar2"
-                  />
-                  <div
-                    class="bar3"
-                  />
-                </div>,
+                    class="Hamburger "
+                  >
+                    <div
+                      class="bar1"
+                    />
+                    <div
+                      class="bar2"
+                    />
+                    <div
+                      class="bar3"
+                    />
+                  </div>
+                </header>,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": Array [
-                    <div
-                      className="bar1"
-                    />,
-                    <div
-                      className="bar2"
-                    />,
-                    <div
-                      className="bar3"
-                    />,
-                  ],
-                  "className": "Hamburger ",
-                  "onClick": [Function],
+                  "children": <Hamburger
+                    animateHamBurger={false}
+                    toggleSideDraw={[Function]}
+                  />,
+                  "className": "Header",
                 },
                 "ref": null,
                 "rendered": Array [
                   Object {
-                    "instance": <div
-                      class="bar1"
-                    />,
+                    "instance": null,
                     "key": undefined,
-                    "nodeType": "host",
+                    "nodeType": "function",
                     "props": Object {
-                      "className": "bar1",
+                      "animateHamBurger": false,
+                      "toggleSideDraw": [Function],
                     },
                     "ref": null,
-                    "rendered": Array [
-                      undefined,
-                    ],
-                    "type": "div",
-                  },
-                  Object {
-                    "instance": <div
-                      class="bar2"
-                    />,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "bar2",
+                    "rendered": Object {
+                      "instance": <div
+                        class="Hamburger "
+                      >
+                        <div
+                          class="bar1"
+                        />
+                        <div
+                          class="bar2"
+                        />
+                        <div
+                          class="bar3"
+                        />
+                      </div>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="bar1"
+                          />,
+                          <div
+                            className="bar2"
+                          />,
+                          <div
+                            className="bar3"
+                          />,
+                        ],
+                        "className": "Hamburger ",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <div
+                            class="bar1"
+                          />,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "bar1",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": <div
+                            class="bar2"
+                          />,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "bar2",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": <div
+                            class="bar3"
+                          />,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "bar3",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
                     },
-                    "ref": null,
-                    "rendered": Array [
-                      undefined,
-                    ],
-                    "type": "div",
-                  },
-                  Object {
-                    "instance": <div
-                      class="bar3"
-                    />,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "bar3",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      undefined,
-                    ],
-                    "type": "div",
+                    "type": [Function],
                   },
                 ],
-                "type": "div",
+                "type": "header",
               },
               "type": [Function],
             },
+            Object {
+              "instance": <main />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "main",
+            },
           ],
-          "type": "header",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": undefined,
-          "isVisible": false,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": <main
-            class="Wrapper close"
-          />,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-            "className": "Wrapper close",
-          },
-          "ref": null,
-          "rendered": Array [
-            undefined,
-          ],
-          "type": "main",
+          "type": "div",
         },
         "type": [Function],
       },
@@ -647,36 +685,45 @@ ReactWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "children": undefined,
             "isVisible": false,
-            "sideDrawToggle": [Function],
+            "toggleSideDraw": [Function],
           },
           "ref": null,
           "rendered": Object {
-            "instance": <header
-              class="Header close"
+            "instance": <div
+              class="Wrapper close"
             >
-              <div
-                class="Hamburger "
+              <header
+                class="Header"
               >
                 <div
-                  class="bar1"
-                />
-                <div
-                  class="bar2"
-                />
-                <div
-                  class="bar3"
-                />
-              </div>
-            </header>,
+                  class="Hamburger "
+                >
+                  <div
+                    class="bar1"
+                  />
+                  <div
+                    class="bar2"
+                  />
+                  <div
+                    class="bar3"
+                  />
+                </div>
+              </header>
+              <main />
+            </div>,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <Hamburger
-                animateHamBurger={false}
-                toggleSideDraw={[Function]}
-              />,
-              "className": "Header close",
+              "children": Array [
+                <Header
+                  isVisible={false}
+                  sideDrawToggle={[Function]}
+                />,
+                <main />,
+              ],
+              "className": "Wrapper close",
             },
             "ref": null,
             "rendered": Array [
@@ -685,122 +732,151 @@ ReactWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "animateHamBurger": false,
-                  "toggleSideDraw": [Function],
+                  "isVisible": false,
+                  "sideDrawToggle": [Function],
                 },
                 "ref": null,
                 "rendered": Object {
-                  "instance": <div
-                    class="Hamburger "
+                  "instance": <header
+                    class="Header"
                   >
                     <div
-                      class="bar1"
-                    />
-                    <div
-                      class="bar2"
-                    />
-                    <div
-                      class="bar3"
-                    />
-                  </div>,
+                      class="Hamburger "
+                    >
+                      <div
+                        class="bar1"
+                      />
+                      <div
+                        class="bar2"
+                      />
+                      <div
+                        class="bar3"
+                      />
+                    </div>
+                  </header>,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": Array [
-                      <div
-                        className="bar1"
-                      />,
-                      <div
-                        className="bar2"
-                      />,
-                      <div
-                        className="bar3"
-                      />,
-                    ],
-                    "className": "Hamburger ",
-                    "onClick": [Function],
+                    "children": <Hamburger
+                      animateHamBurger={false}
+                      toggleSideDraw={[Function]}
+                    />,
+                    "className": "Header",
                   },
                   "ref": null,
                   "rendered": Array [
                     Object {
-                      "instance": <div
-                        class="bar1"
-                      />,
+                      "instance": null,
                       "key": undefined,
-                      "nodeType": "host",
+                      "nodeType": "function",
                       "props": Object {
-                        "className": "bar1",
+                        "animateHamBurger": false,
+                        "toggleSideDraw": [Function],
                       },
                       "ref": null,
-                      "rendered": Array [
-                        undefined,
-                      ],
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": <div
-                        class="bar2"
-                      />,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "bar2",
+                      "rendered": Object {
+                        "instance": <div
+                          class="Hamburger "
+                        >
+                          <div
+                            class="bar1"
+                          />
+                          <div
+                            class="bar2"
+                          />
+                          <div
+                            class="bar3"
+                          />
+                        </div>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="bar1"
+                            />,
+                            <div
+                              className="bar2"
+                            />,
+                            <div
+                              className="bar3"
+                            />,
+                          ],
+                          "className": "Hamburger ",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <div
+                              class="bar1"
+                            />,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "bar1",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": <div
+                              class="bar2"
+                            />,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "bar2",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": <div
+                              class="bar3"
+                            />,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "bar3",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "div",
+                          },
+                        ],
+                        "type": "div",
                       },
-                      "ref": null,
-                      "rendered": Array [
-                        undefined,
-                      ],
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": <div
-                        class="bar3"
-                      />,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "bar3",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        undefined,
-                      ],
-                      "type": "div",
+                      "type": [Function],
                     },
                   ],
-                  "type": "div",
+                  "type": "header",
                 },
                 "type": [Function],
               },
+              Object {
+                "instance": <main />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "main",
+              },
             ],
-            "type": "header",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": undefined,
-            "isVisible": false,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": <main
-              class="Wrapper close"
-            />,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-              "className": "Wrapper close",
-            },
-            "ref": null,
-            "rendered": Array [
-              undefined,
-            ],
-            "type": "main",
+            "type": "div",
           },
           "type": [Function],
         },

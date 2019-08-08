@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { Header } from '../../components/navigation/header'
 import { Sidedraw } from '../../components/navigation/sidedraw'
 import { Wrapper } from '../../components/wrapper'
 
@@ -15,13 +14,10 @@ const Layout = (props) => {
     <React.Fragment>
       <Sidedraw
         isVisible={sideDrawVisible}/>
-        <Header
-        sideDrawToggle={sideDrawToggleHandler}
-        isVisible={sideDrawVisible}
-      />
       <Wrapper
         children={props.children}
-        isVisible={sideDrawVisible}/>
+        isVisible={sideDrawVisible}
+        toggleSideDraw={sideDrawToggleHandler}/>
     </React.Fragment>
   )
 }
