@@ -1,10 +1,10 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { CardImage } from '.'
+import { CardPara } from '.'
 
-describe('<CardImage/>', () => {
+describe('<CardPara/>', () => {
   it('Should render component', () => {
-    const wrapper = shallow(<CardImage/>)
+    const wrapper = shallow(<CardPara/>)
     expect(wrapper.length).toEqual(1)
   })
 })
