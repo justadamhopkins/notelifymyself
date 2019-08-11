@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import store from './store'
 import { App } from './containers/App'
 import './reset.css'
+import './global.css'
 
 ReactDOM.render(
   <Provider store={store}>
