@@ -1,9 +1,25 @@
 .Card {
-  max-width: 300px;
+  --space: 1rem;
+  overflow: hidden;
+}
+
+.Card > * {
   display: flex;
-  flex-direction: column;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: calc(var(--space) / 2 * -1);
+}
+
+.Card > * > * {
+  margin: calc(var(--space) / 2);
+}
+
+.cardWrap {
+  max-width: 300px;
   overflow: hidden;
   background-color: var(--white);
   color: var(--black);
+  border: 1px solid black
 }
+  

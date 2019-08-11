@@ -6,9 +6,18 @@ import { CardPara } from './cardPara'
 const Card = () => {
   return (
     <div className={styles.Card}>
-      <CardTitle/>
-      <CardImage/>
-      <CardPara/>
+      <ul>
+        <li className={styles.cardWrap}>
+          <CardTitle />
+          <CardImage />
+          <CardPara />
+        </li>
+        <li className={styles.cardWrap}>
+          <CardTitle />
+          <CardImage />
+          <CardPara />
+        </li>
+      </ul>
     </div>
   )
 }
