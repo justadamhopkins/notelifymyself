@@ -6,4 +6,9 @@
   justify-content: space-around;
   color: #fff;
   font-size: 25px;
+  white-space: nowrap;
+}
+
+.NavigationItems li {
+  display: inline-block;
 }
