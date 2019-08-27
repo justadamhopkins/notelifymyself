@@ -17,8 +17,8 @@ const Input = ({ input, meta, label }) => {
 }
 
 Input.propTypes = {
-  meta: PropTypes.string,
-  input: PropTypes.func,
+  meta: PropTypes.object,
+  input: PropTypes.object,
   label: PropTypes.string
 }
 

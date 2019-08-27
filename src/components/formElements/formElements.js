@@ -1,6 +1,7 @@
 import React from 'react'
 import { Form, Field } from 'react-final-form'
 import { Input } from './input'
+import { Select } from './select'
 
 const FormElements = () => {
   return (
@@ -23,6 +24,10 @@ const FormElements = () => {
           name={'Title'}
           type={'text'}
           label={'Title Label'}/>
+          <Field
+          component={Select}
+          name={'Title'}
+          label={'Title Select'}/>
       </form>
     )}
   </Form>
