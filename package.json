@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --harmony clientServer/index.js",
-    "test": "jest",
     "server": "node-env-run -E .env.dev server/app.js --exec nodemon",
     "start": "concurrently \"npm:server\" \"npm:dev\"",
     "test:watch": "jest --watch",
     "storybook": "start-storybook",
     "precommit": "eslint src clientServer --ext=jsx --ext=js",
+    "test": "jest",
     "build": "webpack --progress --color --config webpack.prod.config.js"
   },
   "jest": {
@@ -117,7 +117,7 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "eslint src --ext=jsx --ext=js",
+      "pre-commit": "npm run precommit",
       "pre-push": "npm run test"
     }
   }
