@@ -8,9 +8,10 @@
     "server": "node-env-run -E .env.dev server/app.js --exec nodemon",
     "start": "concurrently \"npm:server\" \"npm:dev\"",
     "test:watch": "jest --watch",
+    "test": "jest",
     "storybook": "start-storybook",
     "precommit": "eslint src clientServer --ext=jsx --ext=js",
-    "test": "jest",
+    "prepush": "jest",
     "build": "webpack --progress --color --config webpack.prod.config.js"
   },
   "jest": {
@@ -118,7 +119,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run precommit",
-      "pre-push": "npm run test"
+      "pre-push": "npm run prepush"
     }
   }
 }
