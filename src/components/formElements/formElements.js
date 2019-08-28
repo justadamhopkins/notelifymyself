@@ -26,7 +26,6 @@ const FormElements = () => {
           label={'Title Label'}/>
         <Field
           component={Select}
-          name={'Title'}
           label={'Title Select'}
           ops={options}/>
       </form>
