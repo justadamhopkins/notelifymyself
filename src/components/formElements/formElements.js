@@ -2,7 +2,7 @@ import React from 'react'
 import { Form, Field } from 'react-final-form'
 import { Input } from './input'
 import { Select } from './select'
-
+const options = ['ops1', 'ops2', 'ops3', 'ops4']
 const FormElements = () => {
   return (
     <Form
