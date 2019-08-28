@@ -24,10 +24,11 @@ const FormElements = () => {
           name={'Title'}
           type={'text'}
           label={'Title Label'}/>
-          <Field
+        <Field
           component={Select}
           name={'Title'}
-          label={'Title Select'}/>
+          label={'Title Select'}
+          ops={options}/>
       </form>
     )}
   </Form>
