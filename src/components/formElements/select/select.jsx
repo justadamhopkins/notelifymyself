@@ -1,28 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Select = ({ input, meta, label }) => {
-  const arr = ['ops1', 'ops2', 'ops3', 'ops4']
+const Select = ({ label, ops }) => {
   return (
     <React.Fragment>
       <label>{label}</label>
-      <select
-        {...input}
-        {...arr.map((ops, index) => (
-          <option value={ops} key={index}>
-          {console.log(ops)}
-          </option>
-        ))
-      }
-        {...(meta.error && meta.touched && <span>{meta.error}</span>)}
-      />
+      <select>
+        {ops.map((op, index) => {
+          return (
+            <option value={op} key={index}>
+              {op}
+            </option>
+          )
+        })}
+      </select>
     </React.Fragment>
   )
 }
 
 Select.propTypes = {
-  meta: PropTypes.object,
-  input: PropTypes.object,
+  ops: PropTypes.array,
   label: PropTypes.string
 }
 
