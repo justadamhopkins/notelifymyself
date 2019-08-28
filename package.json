@@ -114,5 +114,11 @@
     "last 1 version",
     "> 1%",
     "IE 10"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint src --ext=jsx --ext=js",
+      "pre-push": "npm run test"
+    }
+  }
 }
