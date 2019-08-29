@@ -2,6 +2,7 @@ import React from 'react'
 import { Form, Field } from 'react-final-form'
 import { Input } from './input'
 import { Select } from './select'
+import { TextArea } from './textarea'
 const options = ['ops1', 'ops2', 'ops3', 'ops4']
 const FormElements = () => {
   return (
@@ -25,9 +26,21 @@ const FormElements = () => {
           type={'text'}
           label={'Title Label'}/>
         <Field
+          component={Input}
+          name={'Title subtitle'}
+          type={'text'}
+          label={'Title subtitle Label'}/>
+        <Field
           component={Select}
           label={'Title Select'}
+          name={'Title'}
           ops={options}/>
+        <Field
+          component={TextArea}
+          label={'Title TextArea'}
+          name={'Title'}
+          rows={'4'}
+          cols={'20'}/>
       </form>
     )}
   </Form>
