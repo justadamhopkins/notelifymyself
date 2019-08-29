@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 const Input = ({ input, meta, label }) => {
   return (
-    <React.Fragment>
+    <div>
       <label>{label}</label>
       <input
       {...input}
@@ -12,7 +12,7 @@ const Input = ({ input, meta, label }) => {
       type={input.type}
       {...meta.error && meta.touched && <span>{meta.error}</span>}
       />
-    </React.Fragment>
+    </div>
   )
 }
 

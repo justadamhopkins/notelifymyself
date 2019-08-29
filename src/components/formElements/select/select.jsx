@@ -3,18 +3,18 @@ import PropTypes from 'prop-types'
 
 const Select = ({ label, ops }) => {
   return (
-    <React.Fragment>
+    <div>
       <label>{label}</label>
-      <select>
-        {ops.map((op, index) => {
-          return (
-            <option value={op} key={index}>
-              {op}
-            </option>
-          )
-        })}
-      </select>
-    </React.Fragment>
+        <select>
+          {ops.map((op, index) => {
+            return (
+              <option value={op} key={index}>
+                {op}
+              </option>
+            )
+          })}
+        </select>
+    </div>
   )
 }
 
