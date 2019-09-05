@@ -1,0 +1,48 @@
+select {
+  background-image: url('../../images/drop-down-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: right 5px center;
+}
+
+textarea {
+  height: 100px;
+}
+
+label {
+  color:var(--secondary);
+}
+
+
+.Form {
+  /* display: flex; */
+  max-width: 300px;
+  margin: 0px auto;
+  padding-bottom: 10px
+}
+
+.Form input, select, textarea {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  appearance: none;
+  outline: none;
+  border: 1px solid var(--purple);
+  border-radius: 2px;
+}
+
+.Form input, select {
+  height: 30px;
+  text-align: center;
+  color:var(--secondary);
+  opacity: 1;
+}
+
+.LeftBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Rightblock select, textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
