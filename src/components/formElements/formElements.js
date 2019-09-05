@@ -3,6 +3,7 @@ import { Form, Field } from 'react-final-form'
 import { Input } from './input'
 import { Select } from './select'
 import { TextArea } from './textarea'
+import styles from './styles.css'
 const options = ['ops1', 'ops2', 'ops3', 'ops4']
 const FormElements = () => {
   return (
@@ -19,7 +20,8 @@ const FormElements = () => {
         return errors
       }}>
     {({ handleSubmit }) => (
-      <form onSubmit={handleSubmit}>
+      <form className={styles.Form} onSubmit={handleSubmit}>
+        <div className={styles.LeftBlock}>
         <Field
           component={Input}
           name={'Title'}
@@ -30,6 +32,8 @@ const FormElements = () => {
           name={'Title subtitle'}
           type={'text'}
           label={'Title subtitle Label'}/>
+        </div>
+        <div className={styles.Rightblock}>
         <Field
           component={Select}
           label={'Title Select'}
@@ -41,6 +45,8 @@ const FormElements = () => {
           name={'Title'}
           rows={'4'}
           cols={'20'}/>
+        </div>
+        <div>BUTTON</div>
       </form>
     )}
   </Form>
