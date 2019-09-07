@@ -3,6 +3,7 @@ import { Form, Field } from 'react-final-form'
 import { Input } from './input'
 import { Select } from './select'
 import { TextArea } from './textarea'
+import { Button } from '../button'
 import styles from './styles.css'
 const options = ['ops1', 'ops2', 'ops3', 'ops4']
 const FormElements = () => {
@@ -46,7 +47,7 @@ const FormElements = () => {
           rows={'4'}
           cols={'20'}/>
         </div>
-        <div>BUTTON</div>
+        <Button/>
       </form>
     )}
   </Form>
