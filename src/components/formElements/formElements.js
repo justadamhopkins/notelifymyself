@@ -5,7 +5,7 @@ import { Select } from './select'
 import { TextArea } from './textarea'
 import { Button } from '../button'
 import styles from './styles.css'
-const options = ['ops1', 'ops2', 'ops3', 'ops4']
+const options = ['animals', 'tech', 'people', 'nature']
 const FormElements = () => {
   return (
     <Form
@@ -27,27 +27,29 @@ const FormElements = () => {
           component={Input}
           name={'Title'}
           type={'text'}
-          label={'Title Label'}/>
+          label={'Card Title'}/>
         <Field
           component={Input}
           name={'Title subtitle'}
           type={'text'}
-          label={'Title subtitle Label'}/>
+          label={'Card subtitle'}/>
         </div>
         <div className={styles.Rightblock}>
         <Field
           component={Select}
-          label={'Title Select'}
+          label={'Picture Type'}
           name={'Title'}
           ops={options}/>
         <Field
           component={TextArea}
-          label={'Title TextArea'}
+          label={'Note'}
           name={'Title'}
           rows={'4'}
           cols={'20'}/>
         </div>
-        <Button/>
+        <Button
+          buttonState={'active'}
+          buttonCopy={'Submit'}/>
       </form>
     )}
   </Form>
