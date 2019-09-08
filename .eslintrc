@@ -4,6 +4,11 @@
       "es6": true,
       "jest": true
   },
+  "settings": {
+    "react": {
+      "version": "16.8.6"
+    }
+  },
   "root": true,
   "extends": "airbnb-base",
   "parser": "babel-eslint",
