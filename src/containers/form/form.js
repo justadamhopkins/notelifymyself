@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormElements } from '../../components/formElements'
 
-const FormContainer = () => {
+const Form = () => {
   return (
     <section>
      <FormElements/>
@@ -9,4 +9,4 @@ const FormContainer = () => {
   )
 }
 
-export default FormContainer
+export default Form
