@@ -1,0 +1,21 @@
+.Button {
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  transition: all 0.3s ease 0s;
+}
+
+.active {
+  background-color: var(--secondary);
+  color: var(--white)
+}
+
+.active:hover {
+  background-color: var(--purple);
+}
+
+.error {
+  background-color: var(--primary);
+  color: var(--white)
+}
