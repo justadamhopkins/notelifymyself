@@ -11,4 +11,4 @@
 
 @custom-media --only-phone-portrait-large (width >= 320px) and (width < 480px)
 
-@custom-media --only-phone-portrait-large (width >= 300px) and (width < 320px)
+@custom-media --only-phone-portrait-small (width >= 300px) and (width < 320px)

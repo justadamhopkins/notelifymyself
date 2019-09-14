@@ -54,3 +54,15 @@ label {
 .LeftBlock > div:nth-child(2) {
   margin-left: 5px;
 }
+
+@media (max-width: 340px)  {
+  .LeftBlock {
+    flex-direction: column;
+  }
+  .LeftBlock > div:nth-child(1) {
+    margin-right: 0px;
+  }
+  .LeftBlock > div:nth-child(2) {
+    margin-left: 0px;
+  }
+}
