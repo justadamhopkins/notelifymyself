@@ -11,7 +11,7 @@ describe('@Input', () => {
     meta: {},
     label: 'my label'
   }
-  it('should render a button', () => {
+  it('should render the component', () => {
     const input = mount(<Input {...props}/>)
     expect(input.length).toBe(1)
   })
