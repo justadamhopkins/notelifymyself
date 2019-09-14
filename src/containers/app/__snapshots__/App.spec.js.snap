@@ -19,6 +19,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <Layout>
+        <Form />
         <Cards />
         <Fetch />
       </Layout>,
@@ -30,12 +31,22 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
+          <Form />,
           <Cards />,
           <Fetch />,
         ],
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
           "instance": null,
           "key": undefined,
@@ -66,6 +77,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <Layout>
+          <Form />
           <Cards />
           <Fetch />
         </Layout>,
@@ -77,12 +89,22 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": Array [
+            <Form />,
             <Cards />,
             <Fetch />,
           ],
         },
         "ref": null,
         "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           Object {
             "instance": null,
             "key": undefined,
