@@ -16,7 +16,6 @@ db.once('open', () => {
 })
 
 app.use((req, res, next) => {
-  console.log(req.originalUrl)
   res.header('Access-Control-Allow-Origin', process.env.frontend)
   res.header(
     'Access-Control-Allow-Headers',
