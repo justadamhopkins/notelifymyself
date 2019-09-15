@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 class Fetch extends Component {
   componentDidMount() {
-    fetch(process.env.baseUrl)
+    fetch(process.env.baseUrl + '/api')
       .then((response) => {
         response.json()
           .then(helloRes => {
