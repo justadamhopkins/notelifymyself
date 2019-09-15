@@ -1,5 +1,5 @@
 import React from 'react'
-import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 import { Button } from '.'
 
 describe('@Button', () => {
@@ -8,15 +8,15 @@ describe('@Button', () => {
     buttonCopy: 'submit'
   }
   it('should render a button', () => {
-    const button = mount(<Button {...props}/>)
+    const button = shallow(<Button {...props}/>)
     expect(button.length).toBe(1)
   })
   it('should render a button state', () => {
-    const button = mount(<Button {...props}/>)
+    const button = shallow(<Button {...props}/>)
     expect(button.find('.active').exists()).toBe(true)
   })
   it('should render button copy', () => {
-    const button = mount(<Button {...props}/>)
+    const button = shallow(<Button {...props}/>)
     expect(button.text()).toBe('submit')
   })
 })

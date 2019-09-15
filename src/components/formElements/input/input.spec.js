@@ -1,5 +1,5 @@
 import React from 'react'
-import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 import { Input } from '.'
 
 describe('@Input', () => {
@@ -12,15 +12,15 @@ describe('@Input', () => {
     label: 'my label'
   }
   it('should render the component', () => {
-    const input = mount(<Input {...props}/>)
+    const input = shallow(<Input {...props}/>)
     expect(input.length).toBe(1)
   })
   it('should render placeholder', () => {
-    const input = mount(<Input {...props}/>)
+    const input = shallow(<Input {...props}/>)
     expect(input.find('input').prop('placeholder')).toEqual('my placeholder')
   })
   it('should render label', () => {
-    const input = mount(<Input {...props}/>)
+    const input = shallow(<Input {...props}/>)
     expect(input.find('label').text()).toEqual('my label')
   })
 })
