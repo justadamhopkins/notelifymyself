@@ -1,13 +1,12 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 const routes = require('./routes/routes')
 
 const app = express()
 
 app.use(bodyParser.json())
-
-mongoose.connect(process.env.databaseUrl, { useNewUrlParser: true })
+mongoose.connect(process.env.databaseUrl, { useUnifiedTopology: true, useNewUrlParser: true })
 
 const db = mongoose.connection
 
