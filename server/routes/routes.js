@@ -1,5 +1,5 @@
-const mockCtrl = require('../controllers/mockCtrl')
+const cardCtrl = require('../controllers/card')
 
 module.exports.routeList = (app) => {
-  app.get('/api', mockCtrl.test)
+  app.post('/api/addCard', cardCtrl.saveCard)
 }
