@@ -3,7 +3,16 @@ import React, { Component } from 'react'
 
 class Fetch extends Component {
   componentDidMount() {
-    fetch(process.env.baseUrl + '/api')
+    const data = {
+      title: 'adam',
+      subtitle: 'test',
+      image: 'animal',
+      para: 'test'
+    }
+    fetch(process.env.baseUrl + '/addCard', {
+      method: 'POST',
+      body: JSON.stringify(data)
+    })
       .then((response) => {
         response.json()
           .then(helloRes => {
