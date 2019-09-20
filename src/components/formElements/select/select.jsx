@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Select = ({ label, ops }) => {
+const Select = ({ label, ops, input }) => {
   return (
     <div>
       <label>{label}</label>
-        <select>
+        <select onChange={input.onChange}>
           {ops.map((op, index) => {
             return (
               <option value={op} key={index}>
