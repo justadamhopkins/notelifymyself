@@ -9,6 +9,7 @@ const Input = ({ input, meta, label }) => {
       <input
       {...input}
       placeholder={input.name}
+      name={input.name}
       type={input.type}
       {...meta.error && meta.touched && <span>{meta.error}</span>}
       />
