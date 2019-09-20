@@ -2,15 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './styles.css'
 
-const Button = ({ buttonState, buttonCopy }) => {
+const Button = ({ buttonState, buttonCopy, type }) => {
   return (
-    <button className={[styles.Button, styles[buttonState]].join(' ')}>{buttonCopy}</button>
+    <button type={type} className={[styles.Button, styles[buttonState]].join(' ')}>{buttonCopy}</button>
   )
 }
 
 Button.propTypes = {
   buttonState: PropTypes.string,
-  buttonCopy: PropTypes.string
+  buttonCopy: PropTypes.string,
+  type: PropTypes.string
 }
 
 export default Button
