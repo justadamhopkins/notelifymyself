@@ -4,8 +4,8 @@ const { Schema } = mongoose
 const cardSchema = new Schema({
   title: String,
   subtitle: String,
-  image: String,
-  para: String
+  pictures: String,
+  note: String
 })
 
 module.exports = cardSchema
