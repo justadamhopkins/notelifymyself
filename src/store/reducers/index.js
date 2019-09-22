@@ -2,7 +2,7 @@ import { combineReducers } from 'redux'
 import { createReducers } from '../utils'
 
 const rootReducer = combineReducers({
-  mock: createReducers('STATE')
+  form: createReducers('FORM')
 })
 
 export default rootReducer
