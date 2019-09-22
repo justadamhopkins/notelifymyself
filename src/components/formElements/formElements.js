@@ -60,7 +60,7 @@ const FormElements = ({ send }) => {
 }
 
 FormElements.propTypes = {
-  send: PropTypes.Func
+  send: PropTypes.func
 }
 
 export default FormElements
