@@ -1,1 +1,1 @@
-export const MOCK_STATE = 'MOCK_STATE'
+export const ADD_FORM = 'ADD_FORM'
