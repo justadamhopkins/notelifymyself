@@ -5,7 +5,8 @@ import { Button } from '.'
 describe('@Button', () => {
   const props = {
     buttonState: 'active',
-    buttonCopy: 'submit'
+    buttonCopy: 'submit',
+    type: 'submit'
   }
   it('should render a button', () => {
     const button = shallow(<Button {...props}/>)
