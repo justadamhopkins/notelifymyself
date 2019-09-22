@@ -6,7 +6,10 @@ describe('@TextArea', () => {
   const props = {
     rows: '11',
     cols: '10',
-    label: 'my label'
+    label: 'my label',
+    input: {
+      onChange: jest.fn()
+    }
   }
   it('should the component', () => {
     const textarea = shallow(<TextArea {...props}/>)
@@ -23,5 +26,14 @@ describe('@TextArea', () => {
   it('should render label', () => {
     const textarea = shallow(<TextArea {...props}/>)
     expect(textarea.find('label').text()).toEqual('my label')
+  })
+  it('fires onChange event with a user action', () => {
+    const select = shallow(<TextArea {...props}/>)
+    const event = { target: { value: 'Your new Value' } }
+    const { onChange } = props.input
+    jest.resetAllMocks()
+    select.find('textarea').simulate('change', event)
+    expect(onChange).toHaveBeenCalledTimes(1)
+    expect(onChange).toHaveBeenLastCalledWith(event)
   })
 })
