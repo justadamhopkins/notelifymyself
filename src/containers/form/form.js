@@ -1,16 +1,39 @@
-import React from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { addFormData } from '../../store/actions/form/formActions'
 import { FormElements } from '../../components/formElements'
 
-const Form = () => {
-  const submit = (values) => {
-    console.log(values)
+class Form extends Component {
+  submit = async (values) => { // todo write test
+    const { addFormData } = this.props
+    const response = await fetch(process.env.baseUrl + '/addCard', {
+      method: 'POST',
+      body: JSON.stringify(values),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    const data = await response.json()
+    addFormData(data)
   }
-  return (
-    <section>
-     <FormElements
-     send={submit}/>
-    </section>
-  )
+
+  render() {
+    const { submit } = this
+    return (
+      <section>
+        <FormElements
+          send={submit}/>
+      </section>
+    )
+  }
 }
 
-export default Form
+Form.propTypes = {
+  addFormData: PropTypes.func
+}
+
+export default connect(
+  () => ({}),
+  { addFormData }
+)(Form)
