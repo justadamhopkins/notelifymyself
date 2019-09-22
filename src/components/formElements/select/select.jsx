@@ -20,7 +20,8 @@ const Select = ({ label, ops, input }) => {
 
 Select.propTypes = {
   ops: PropTypes.array,
-  label: PropTypes.string
+  label: PropTypes.string,
+  onChange: PropTypes.func
 }
 
 export default Select
