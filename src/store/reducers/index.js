@@ -2,7 +2,7 @@ import { combineReducers } from 'redux'
 import { createReducers } from '../utils'
 
 const rootReducer = combineReducers({
-  form: createReducers('FORM')
+  card: createReducers('CARD')
 })
 
 export default rootReducer
