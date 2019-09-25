@@ -30,10 +30,10 @@ class Form extends Component {
 }
 
 Form.propTypes = {
-  addFormData: PropTypes.func
+  addCard: PropTypes.func
 }
 
 export default connect(
   () => ({}),
-  { addFormData }
+  { addCard }
 )(Form)
