@@ -1,13 +1,26 @@
-import React from 'react'
-
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 import { Card } from '../../components/card'
 
-const Cards = () => {
-  return (
+class Cards extends Component {
+  render() {
+    const { cards } = this.props
+    return (
     <div>
-      <Card/>
+      <Card card={cards}/>
     </div>
-  )
+    )
+  }
 }
 
-export default Cards
+Cards.propTypes = {
+  cards: PropTypes.object
+}
+
+export default connect(
+  (state) => ({
+    cards: state.card
+  }),
+  { }
+)(Cards)
