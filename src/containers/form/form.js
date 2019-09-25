@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { addFormData } from '../../store/actions/form/formActions'
+import { addCard } from '../../store/actions/card/cardActions'
 import { FormElements } from '../../components/formElements'
 
 class Form extends Component {
   submit = async (values) => { // todo write test
-    const { addFormData } = this.props
+    const { addCard } = this.props
     const response = await fetch(process.env.baseUrl + '/addCard', {
       method: 'POST',
       body: JSON.stringify(values),
@@ -15,7 +15,7 @@ class Form extends Component {
       }
     })
     const data = await response.json()
-    addFormData(data)
+    addCard(data)
   }
 
   render() {
