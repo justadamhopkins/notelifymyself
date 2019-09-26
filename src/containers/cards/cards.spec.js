@@ -1,6 +1,6 @@
 import React from 'react'
 import { mount } from 'enzyme'
-import { Cards } from '.'
+import { Cards } from './cards'
 
 
 describe('<Cards/>', () => {
