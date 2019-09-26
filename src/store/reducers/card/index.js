@@ -1,3 +1,3 @@
-import { addCard } from './card'
+import { addCard, removeCard } from './card'
 
-export { addCard }
+export { addCard, removeCard }
