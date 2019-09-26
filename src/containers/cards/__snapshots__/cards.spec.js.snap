@@ -13,94 +13,642 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": null,
+    "instance": Cards {
+      "_reactInternalFiber": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 123,
+        "_debugIsCurrentlyTiming": false,
+        "_debugNeedsRemount": false,
+        "_debugOwner": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 121,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 118,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 118,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "containerInfo": <div>
+                  <div />
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "firstPendingTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 16,
+                "lastPendingTime": 0,
+                "memoizedInteractions": Set {},
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "pingTime": 0,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={Object {}}
+                wrappingComponentProps={null}
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": FiberRootNode {
+              "callbackExpirationTime": 0,
+              "callbackNode": null,
+              "containerInfo": <div>
+                <div />
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedExpirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "firstPendingTime": 0,
+              "hydrate": false,
+              "interactionThreadID": 16,
+              "lastPendingTime": 0,
+              "memoizedInteractions": Set {},
+              "pendingChildren": null,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "pingTime": 0,
+              "tag": 0,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "refs": Object {},
+            "rootFinderInstance": null,
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 125,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 127,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": null,
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "card": undefined,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "card": undefined,
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": null,
+            "tag": 0,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 0,
+          "elementType": "div",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": <Card />,
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": <Card />,
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div />,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "dependencies": null,
+        "effectTag": 1,
+        "elementType": [Function],
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {},
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {},
+        "ref": null,
+        "return": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 121,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 118,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 118,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "containerInfo": <div>
+                  <div />
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "firstPendingTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 16,
+                "lastPendingTime": 0,
+                "memoizedInteractions": Set {},
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "pingTime": 0,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={Object {}}
+                wrappingComponentProps={null}
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": FiberRootNode {
+              "callbackExpirationTime": 0,
+              "callbackNode": null,
+              "containerInfo": <div>
+                <div />
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedExpirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "firstPendingTime": 0,
+              "hydrate": false,
+              "interactionThreadID": 16,
+              "lastPendingTime": 0,
+              "memoizedInteractions": Set {},
+              "pendingChildren": null,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "pingTime": 0,
+              "tag": 0,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "refs": Object {},
+            "rootFinderInstance": null,
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 1,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": null,
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <div>
-        <div
-          class="Card"
-        >
-          <ul>
-            <li
-              class="cardWrap"
-            >
-              <div
-                class="CardTitle"
-              >
-                <div
-                  class="CardImage"
-                >
-                  <img
-                    src="https://placeimg.com/80/80/animals"
-                  />
-                </div>
-                <div>
-                  <h5>
-                    My Card Title
-                  </h5>
-                  <p>
-                    My Card Subtitle
-                  </p>
-                </div>
-              </div>
-              <div
-                class="CardImage"
-              >
-                <img
-                  src="https://placeimg.com/300/200/animals"
-                />
-              </div>
-              <div
-                class="CardPara"
-              >
-                <p>
-                  Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                </p>
-              </div>
-            </li>
-            <li
-              class="cardWrap"
-            >
-              <div
-                class="CardTitle"
-              >
-                <div
-                  class="CardImage"
-                >
-                  <img
-                    src="https://placeimg.com/80/80/animals"
-                  />
-                </div>
-                <div>
-                  <h5>
-                    My Card Title
-                  </h5>
-                  <p>
-                    My Card Subtitle
-                  </p>
-                </div>
-              </div>
-              <div
-                class="CardImage"
-              >
-                <img
-                  src="https://placeimg.com/300/200/animals"
-                />
-              </div>
-              <div
-                class="CardPara"
-              >
-                <p>
-                  Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>,
+      "instance": <div />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
@@ -112,793 +660,11 @@ ReactWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": Object {
-            "instance": <div
-              class="Card"
-            >
-              <ul>
-                <li
-                  class="cardWrap"
-                >
-                  <div
-                    class="CardTitle"
-                  >
-                    <div
-                      class="CardImage"
-                    >
-                      <img
-                        src="https://placeimg.com/80/80/animals"
-                      />
-                    </div>
-                    <div>
-                      <h5>
-                        My Card Title
-                      </h5>
-                      <p>
-                        My Card Subtitle
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    class="CardImage"
-                  >
-                    <img
-                      src="https://placeimg.com/300/200/animals"
-                    />
-                  </div>
-                  <div
-                    class="CardPara"
-                  >
-                    <p>
-                      Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                    </p>
-                  </div>
-                </li>
-                <li
-                  class="cardWrap"
-                >
-                  <div
-                    class="CardTitle"
-                  >
-                    <div
-                      class="CardImage"
-                    >
-                      <img
-                        src="https://placeimg.com/80/80/animals"
-                      />
-                    </div>
-                    <div>
-                      <h5>
-                        My Card Title
-                      </h5>
-                      <p>
-                        My Card Subtitle
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    class="CardImage"
-                  >
-                    <img
-                      src="https://placeimg.com/300/200/animals"
-                    />
-                  </div>
-                  <div
-                    class="CardPara"
-                  >
-                    <p>
-                      Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <ul>
-                <li
-                  className="cardWrap"
-                >
-                  <CardTitle />
-                  <CardImage />
-                  <CardPara />
-                </li>
-                <li
-                  className="cardWrap"
-                >
-                  <CardTitle />
-                  <CardImage />
-                  <CardPara />
-                </li>
-              </ul>,
-              "className": "Card",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": <ul>
-                  <li
-                    class="cardWrap"
-                  >
-                    <div
-                      class="CardTitle"
-                    >
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/80/80/animals"
-                        />
-                      </div>
-                      <div>
-                        <h5>
-                          My Card Title
-                        </h5>
-                        <p>
-                          My Card Subtitle
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      class="CardImage"
-                    >
-                      <img
-                        src="https://placeimg.com/300/200/animals"
-                      />
-                    </div>
-                    <div
-                      class="CardPara"
-                    >
-                      <p>
-                        Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                      </p>
-                    </div>
-                  </li>
-                  <li
-                    class="cardWrap"
-                  >
-                    <div
-                      class="CardTitle"
-                    >
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/80/80/animals"
-                        />
-                      </div>
-                      <div>
-                        <h5>
-                          My Card Title
-                        </h5>
-                        <p>
-                          My Card Subtitle
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      class="CardImage"
-                    >
-                      <img
-                        src="https://placeimg.com/300/200/animals"
-                      />
-                    </div>
-                    <div
-                      class="CardPara"
-                    >
-                      <p>
-                        Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                      </p>
-                    </div>
-                  </li>
-                </ul>,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <li
-                      className="cardWrap"
-                    >
-                      <CardTitle />
-                      <CardImage />
-                      <CardPara />
-                    </li>,
-                    <li
-                      className="cardWrap"
-                    >
-                      <CardTitle />
-                      <CardImage />
-                      <CardPara />
-                    </li>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": <li
-                      class="cardWrap"
-                    >
-                      <div
-                        class="CardTitle"
-                      >
-                        <div
-                          class="CardImage"
-                        >
-                          <img
-                            src="https://placeimg.com/80/80/animals"
-                          />
-                        </div>
-                        <div>
-                          <h5>
-                            My Card Title
-                          </h5>
-                          <p>
-                            My Card Subtitle
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/300/200/animals"
-                        />
-                      </div>
-                      <div
-                        class="CardPara"
-                      >
-                        <p>
-                          Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                        </p>
-                      </div>
-                    </li>,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <CardTitle />,
-                        <CardImage />,
-                        <CardPara />,
-                      ],
-                      "className": "cardWrap",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {},
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": <div
-                            class="CardTitle"
-                          >
-                            <div
-                              class="CardImage"
-                            >
-                              <img
-                                src="https://placeimg.com/80/80/animals"
-                              />
-                            </div>
-                            <div>
-                              <h5>
-                                My Card Title
-                              </h5>
-                              <p>
-                                My Card Subtitle
-                              </p>
-                            </div>
-                          </div>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": Array [
-                              <div
-                                className="CardImage"
-                              >
-                                <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />
-                              </div>,
-                              <div>
-                                <h5>
-                                  My Card Title
-                                </h5>
-                                <p>
-                                  My Card Subtitle
-                                </p>
-                              </div>,
-                            ],
-                            "className": "CardTitle",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": <div
-                                class="CardImage"
-                              >
-                                <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />
-                              </div>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />,
-                                "className": "CardImage",
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                Object {
-                                  "instance": <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "src": "https://placeimg.com/80/80/animals",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    undefined,
-                                  ],
-                                  "type": "img",
-                                },
-                              ],
-                              "type": "div",
-                            },
-                            Object {
-                              "instance": <div>
-                                <h5>
-                                  My Card Title
-                                </h5>
-                                <p>
-                                  My Card Subtitle
-                                </p>
-                              </div>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": Array [
-                                  <h5>
-                                    My Card Title
-                                  </h5>,
-                                  <p>
-                                    My Card Subtitle
-                                  </p>,
-                                ],
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                Object {
-                                  "instance": <h5>
-                                    My Card Title
-                                  </h5>,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "children": "My Card Title",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    "My Card Title",
-                                  ],
-                                  "type": "h5",
-                                },
-                                Object {
-                                  "instance": <p>
-                                    My Card Subtitle
-                                  </p>,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "children": "My Card Subtitle",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    "My Card Subtitle",
-                                  ],
-                                  "type": "p",
-                                },
-                              ],
-                              "type": "div",
-                            },
-                          ],
-                          "type": "div",
-                        },
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {},
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": <div
-                            class="CardImage"
-                          >
-                            <img
-                              src="https://placeimg.com/300/200/animals"
-                            />
-                          </div>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <img
-                              src="https://placeimg.com/300/200/animals"
-                            />,
-                            "className": "CardImage",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": <img
-                                src="https://placeimg.com/300/200/animals"
-                              />,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "src": "https://placeimg.com/300/200/animals",
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                undefined,
-                              ],
-                              "type": "img",
-                            },
-                          ],
-                          "type": "div",
-                        },
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {},
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": <div
-                            class="CardPara"
-                          >
-                            <p>
-                              Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                            </p>
-                          </div>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <p>
-                              Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                            </p>,
-                            "className": "CardPara",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": <p>
-                                Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                              </p>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                              ],
-                              "type": "p",
-                            },
-                          ],
-                          "type": "div",
-                        },
-                        "type": [Function],
-                      },
-                    ],
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": <li
-                      class="cardWrap"
-                    >
-                      <div
-                        class="CardTitle"
-                      >
-                        <div
-                          class="CardImage"
-                        >
-                          <img
-                            src="https://placeimg.com/80/80/animals"
-                          />
-                        </div>
-                        <div>
-                          <h5>
-                            My Card Title
-                          </h5>
-                          <p>
-                            My Card Subtitle
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/300/200/animals"
-                        />
-                      </div>
-                      <div
-                        class="CardPara"
-                      >
-                        <p>
-                          Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                        </p>
-                      </div>
-                    </li>,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <CardTitle />,
-                        <CardImage />,
-                        <CardPara />,
-                      ],
-                      "className": "cardWrap",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {},
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": <div
-                            class="CardTitle"
-                          >
-                            <div
-                              class="CardImage"
-                            >
-                              <img
-                                src="https://placeimg.com/80/80/animals"
-                              />
-                            </div>
-                            <div>
-                              <h5>
-                                My Card Title
-                              </h5>
-                              <p>
-                                My Card Subtitle
-                              </p>
-                            </div>
-                          </div>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": Array [
-                              <div
-                                className="CardImage"
-                              >
-                                <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />
-                              </div>,
-                              <div>
-                                <h5>
-                                  My Card Title
-                                </h5>
-                                <p>
-                                  My Card Subtitle
-                                </p>
-                              </div>,
-                            ],
-                            "className": "CardTitle",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": <div
-                                class="CardImage"
-                              >
-                                <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />
-                              </div>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />,
-                                "className": "CardImage",
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                Object {
-                                  "instance": <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "src": "https://placeimg.com/80/80/animals",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    undefined,
-                                  ],
-                                  "type": "img",
-                                },
-                              ],
-                              "type": "div",
-                            },
-                            Object {
-                              "instance": <div>
-                                <h5>
-                                  My Card Title
-                                </h5>
-                                <p>
-                                  My Card Subtitle
-                                </p>
-                              </div>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": Array [
-                                  <h5>
-                                    My Card Title
-                                  </h5>,
-                                  <p>
-                                    My Card Subtitle
-                                  </p>,
-                                ],
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                Object {
-                                  "instance": <h5>
-                                    My Card Title
-                                  </h5>,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "children": "My Card Title",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    "My Card Title",
-                                  ],
-                                  "type": "h5",
-                                },
-                                Object {
-                                  "instance": <p>
-                                    My Card Subtitle
-                                  </p>,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "children": "My Card Subtitle",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    "My Card Subtitle",
-                                  ],
-                                  "type": "p",
-                                },
-                              ],
-                              "type": "div",
-                            },
-                          ],
-                          "type": "div",
-                        },
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {},
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": <div
-                            class="CardImage"
-                          >
-                            <img
-                              src="https://placeimg.com/300/200/animals"
-                            />
-                          </div>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <img
-                              src="https://placeimg.com/300/200/animals"
-                            />,
-                            "className": "CardImage",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": <img
-                                src="https://placeimg.com/300/200/animals"
-                              />,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "src": "https://placeimg.com/300/200/animals",
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                undefined,
-                              ],
-                              "type": "img",
-                            },
-                          ],
-                          "type": "div",
-                        },
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "function",
-                        "props": Object {},
-                        "ref": null,
-                        "rendered": Object {
-                          "instance": <div
-                            class="CardPara"
-                          >
-                            <p>
-                              Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                            </p>
-                          </div>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <p>
-                              Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                            </p>,
-                            "className": "CardPara",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": <p>
-                                Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                              </p>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                              ],
-                              "type": "p",
-                            },
-                          ],
-                          "type": "div",
-                        },
-                        "type": [Function],
-                      },
-                    ],
-                    "type": "li",
-                  },
-                ],
-                "type": "ul",
-              },
-            ],
-            "type": "div",
+          "props": Object {
+            "card": undefined,
           },
+          "ref": null,
+          "rendered": null,
           "type": [Function],
         },
       ],
@@ -908,94 +674,642 @@ ReactWrapper {
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": null,
+      "instance": Cards {
+        "_reactInternalFiber": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 123,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 121,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 118,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 118,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": FiberRootNode {
+                  "callbackExpirationTime": 0,
+                  "callbackNode": null,
+                  "containerInfo": <div>
+                    <div />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedExpirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "firstPendingTime": 0,
+                  "hydrate": false,
+                  "interactionThreadID": 16,
+                  "lastPendingTime": 0,
+                  "memoizedInteractions": Set {},
+                  "pendingChildren": null,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "pingTime": 0,
+                  "tag": 0,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "containerInfo": <div>
+                  <div />
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "firstPendingTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 16,
+                "lastPendingTime": 0,
+                "memoizedInteractions": Set {},
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "pingTime": 0,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+                    wrappingComponentProps={null}
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "refs": Object {},
+              "rootFinderInstance": null,
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 1,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 125,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 127,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 1,
+              "elementType": [Function],
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "card": undefined,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "card": undefined,
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": null,
+              "tag": 0,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <Card />,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <Card />,
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div />,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {},
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {},
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 121,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 118,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 118,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": FiberRootNode {
+                  "callbackExpirationTime": 0,
+                  "callbackNode": null,
+                  "containerInfo": <div>
+                    <div />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedExpirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "firstPendingTime": 0,
+                  "hydrate": false,
+                  "interactionThreadID": 16,
+                  "lastPendingTime": 0,
+                  "memoizedInteractions": Set {},
+                  "pendingChildren": null,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "pingTime": 0,
+                  "tag": 0,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "containerInfo": <div>
+                  <div />
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "firstPendingTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 16,
+                "lastPendingTime": 0,
+                "memoizedInteractions": Set {},
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "pingTime": 0,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+                    wrappingComponentProps={null}
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "refs": Object {},
+              "rootFinderInstance": null,
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 1,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <div>
-          <div
-            class="Card"
-          >
-            <ul>
-              <li
-                class="cardWrap"
-              >
-                <div
-                  class="CardTitle"
-                >
-                  <div
-                    class="CardImage"
-                  >
-                    <img
-                      src="https://placeimg.com/80/80/animals"
-                    />
-                  </div>
-                  <div>
-                    <h5>
-                      My Card Title
-                    </h5>
-                    <p>
-                      My Card Subtitle
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="CardImage"
-                >
-                  <img
-                    src="https://placeimg.com/300/200/animals"
-                  />
-                </div>
-                <div
-                  class="CardPara"
-                >
-                  <p>
-                    Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                  </p>
-                </div>
-              </li>
-              <li
-                class="cardWrap"
-              >
-                <div
-                  class="CardTitle"
-                >
-                  <div
-                    class="CardImage"
-                  >
-                    <img
-                      src="https://placeimg.com/80/80/animals"
-                    />
-                  </div>
-                  <div>
-                    <h5>
-                      My Card Title
-                    </h5>
-                    <p>
-                      My Card Subtitle
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="CardImage"
-                >
-                  <img
-                    src="https://placeimg.com/300/200/animals"
-                  />
-                </div>
-                <div
-                  class="CardPara"
-                >
-                  <p>
-                    Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>,
+        "instance": <div />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
@@ -1007,793 +1321,11 @@ ReactWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": Object {
-              "instance": <div
-                class="Card"
-              >
-                <ul>
-                  <li
-                    class="cardWrap"
-                  >
-                    <div
-                      class="CardTitle"
-                    >
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/80/80/animals"
-                        />
-                      </div>
-                      <div>
-                        <h5>
-                          My Card Title
-                        </h5>
-                        <p>
-                          My Card Subtitle
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      class="CardImage"
-                    >
-                      <img
-                        src="https://placeimg.com/300/200/animals"
-                      />
-                    </div>
-                    <div
-                      class="CardPara"
-                    >
-                      <p>
-                        Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                      </p>
-                    </div>
-                  </li>
-                  <li
-                    class="cardWrap"
-                  >
-                    <div
-                      class="CardTitle"
-                    >
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/80/80/animals"
-                        />
-                      </div>
-                      <div>
-                        <h5>
-                          My Card Title
-                        </h5>
-                        <p>
-                          My Card Subtitle
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      class="CardImage"
-                    >
-                      <img
-                        src="https://placeimg.com/300/200/animals"
-                      />
-                    </div>
-                    <div
-                      class="CardPara"
-                    >
-                      <p>
-                        Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <ul>
-                  <li
-                    className="cardWrap"
-                  >
-                    <CardTitle />
-                    <CardImage />
-                    <CardPara />
-                  </li>
-                  <li
-                    className="cardWrap"
-                  >
-                    <CardTitle />
-                    <CardImage />
-                    <CardPara />
-                  </li>
-                </ul>,
-                "className": "Card",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": <ul>
-                    <li
-                      class="cardWrap"
-                    >
-                      <div
-                        class="CardTitle"
-                      >
-                        <div
-                          class="CardImage"
-                        >
-                          <img
-                            src="https://placeimg.com/80/80/animals"
-                          />
-                        </div>
-                        <div>
-                          <h5>
-                            My Card Title
-                          </h5>
-                          <p>
-                            My Card Subtitle
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/300/200/animals"
-                        />
-                      </div>
-                      <div
-                        class="CardPara"
-                      >
-                        <p>
-                          Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                        </p>
-                      </div>
-                    </li>
-                    <li
-                      class="cardWrap"
-                    >
-                      <div
-                        class="CardTitle"
-                      >
-                        <div
-                          class="CardImage"
-                        >
-                          <img
-                            src="https://placeimg.com/80/80/animals"
-                          />
-                        </div>
-                        <div>
-                          <h5>
-                            My Card Title
-                          </h5>
-                          <p>
-                            My Card Subtitle
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="CardImage"
-                      >
-                        <img
-                          src="https://placeimg.com/300/200/animals"
-                        />
-                      </div>
-                      <div
-                        class="CardPara"
-                      >
-                        <p>
-                          Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <li
-                        className="cardWrap"
-                      >
-                        <CardTitle />
-                        <CardImage />
-                        <CardPara />
-                      </li>,
-                      <li
-                        className="cardWrap"
-                      >
-                        <CardTitle />
-                        <CardImage />
-                        <CardPara />
-                      </li>,
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": <li
-                        class="cardWrap"
-                      >
-                        <div
-                          class="CardTitle"
-                        >
-                          <div
-                            class="CardImage"
-                          >
-                            <img
-                              src="https://placeimg.com/80/80/animals"
-                            />
-                          </div>
-                          <div>
-                            <h5>
-                              My Card Title
-                            </h5>
-                            <p>
-                              My Card Subtitle
-                            </p>
-                          </div>
-                        </div>
-                        <div
-                          class="CardImage"
-                        >
-                          <img
-                            src="https://placeimg.com/300/200/animals"
-                          />
-                        </div>
-                        <div
-                          class="CardPara"
-                        >
-                          <p>
-                            Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                          </p>
-                        </div>
-                      </li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <CardTitle />,
-                          <CardImage />,
-                          <CardPara />,
-                        ],
-                        "className": "cardWrap",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {},
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": <div
-                              class="CardTitle"
-                            >
-                              <div
-                                class="CardImage"
-                              >
-                                <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />
-                              </div>
-                              <div>
-                                <h5>
-                                  My Card Title
-                                </h5>
-                                <p>
-                                  My Card Subtitle
-                                </p>
-                              </div>
-                            </div>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": Array [
-                                <div
-                                  className="CardImage"
-                                >
-                                  <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />
-                                </div>,
-                                <div>
-                                  <h5>
-                                    My Card Title
-                                  </h5>
-                                  <p>
-                                    My Card Subtitle
-                                  </p>
-                                </div>,
-                              ],
-                              "className": "CardTitle",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              Object {
-                                "instance": <div
-                                  class="CardImage"
-                                >
-                                  <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />
-                                </div>,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />,
-                                  "className": "CardImage",
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  Object {
-                                    "instance": <img
-                                      src="https://placeimg.com/80/80/animals"
-                                    />,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "src": "https://placeimg.com/80/80/animals",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      undefined,
-                                    ],
-                                    "type": "img",
-                                  },
-                                ],
-                                "type": "div",
-                              },
-                              Object {
-                                "instance": <div>
-                                  <h5>
-                                    My Card Title
-                                  </h5>
-                                  <p>
-                                    My Card Subtitle
-                                  </p>
-                                </div>,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": Array [
-                                    <h5>
-                                      My Card Title
-                                    </h5>,
-                                    <p>
-                                      My Card Subtitle
-                                    </p>,
-                                  ],
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  Object {
-                                    "instance": <h5>
-                                      My Card Title
-                                    </h5>,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "children": "My Card Title",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      "My Card Title",
-                                    ],
-                                    "type": "h5",
-                                  },
-                                  Object {
-                                    "instance": <p>
-                                      My Card Subtitle
-                                    </p>,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "children": "My Card Subtitle",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      "My Card Subtitle",
-                                    ],
-                                    "type": "p",
-                                  },
-                                ],
-                                "type": "div",
-                              },
-                            ],
-                            "type": "div",
-                          },
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {},
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": <div
-                              class="CardImage"
-                            >
-                              <img
-                                src="https://placeimg.com/300/200/animals"
-                              />
-                            </div>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": <img
-                                src="https://placeimg.com/300/200/animals"
-                              />,
-                              "className": "CardImage",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              Object {
-                                "instance": <img
-                                  src="https://placeimg.com/300/200/animals"
-                                />,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "src": "https://placeimg.com/300/200/animals",
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  undefined,
-                                ],
-                                "type": "img",
-                              },
-                            ],
-                            "type": "div",
-                          },
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {},
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": <div
-                              class="CardPara"
-                            >
-                              <p>
-                                Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                              </p>
-                            </div>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": <p>
-                                Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                              </p>,
-                              "className": "CardPara",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              Object {
-                                "instance": <p>
-                                  Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                                </p>,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                                ],
-                                "type": "p",
-                              },
-                            ],
-                            "type": "div",
-                          },
-                          "type": [Function],
-                        },
-                      ],
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": <li
-                        class="cardWrap"
-                      >
-                        <div
-                          class="CardTitle"
-                        >
-                          <div
-                            class="CardImage"
-                          >
-                            <img
-                              src="https://placeimg.com/80/80/animals"
-                            />
-                          </div>
-                          <div>
-                            <h5>
-                              My Card Title
-                            </h5>
-                            <p>
-                              My Card Subtitle
-                            </p>
-                          </div>
-                        </div>
-                        <div
-                          class="CardImage"
-                        >
-                          <img
-                            src="https://placeimg.com/300/200/animals"
-                          />
-                        </div>
-                        <div
-                          class="CardPara"
-                        >
-                          <p>
-                            Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                          </p>
-                        </div>
-                      </li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <CardTitle />,
-                          <CardImage />,
-                          <CardPara />,
-                        ],
-                        "className": "cardWrap",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {},
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": <div
-                              class="CardTitle"
-                            >
-                              <div
-                                class="CardImage"
-                              >
-                                <img
-                                  src="https://placeimg.com/80/80/animals"
-                                />
-                              </div>
-                              <div>
-                                <h5>
-                                  My Card Title
-                                </h5>
-                                <p>
-                                  My Card Subtitle
-                                </p>
-                              </div>
-                            </div>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": Array [
-                                <div
-                                  className="CardImage"
-                                >
-                                  <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />
-                                </div>,
-                                <div>
-                                  <h5>
-                                    My Card Title
-                                  </h5>
-                                  <p>
-                                    My Card Subtitle
-                                  </p>
-                                </div>,
-                              ],
-                              "className": "CardTitle",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              Object {
-                                "instance": <div
-                                  class="CardImage"
-                                >
-                                  <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />
-                                </div>,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": <img
-                                    src="https://placeimg.com/80/80/animals"
-                                  />,
-                                  "className": "CardImage",
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  Object {
-                                    "instance": <img
-                                      src="https://placeimg.com/80/80/animals"
-                                    />,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "src": "https://placeimg.com/80/80/animals",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      undefined,
-                                    ],
-                                    "type": "img",
-                                  },
-                                ],
-                                "type": "div",
-                              },
-                              Object {
-                                "instance": <div>
-                                  <h5>
-                                    My Card Title
-                                  </h5>
-                                  <p>
-                                    My Card Subtitle
-                                  </p>
-                                </div>,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": Array [
-                                    <h5>
-                                      My Card Title
-                                    </h5>,
-                                    <p>
-                                      My Card Subtitle
-                                    </p>,
-                                  ],
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  Object {
-                                    "instance": <h5>
-                                      My Card Title
-                                    </h5>,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "children": "My Card Title",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      "My Card Title",
-                                    ],
-                                    "type": "h5",
-                                  },
-                                  Object {
-                                    "instance": <p>
-                                      My Card Subtitle
-                                    </p>,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "children": "My Card Subtitle",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      "My Card Subtitle",
-                                    ],
-                                    "type": "p",
-                                  },
-                                ],
-                                "type": "div",
-                              },
-                            ],
-                            "type": "div",
-                          },
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {},
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": <div
-                              class="CardImage"
-                            >
-                              <img
-                                src="https://placeimg.com/300/200/animals"
-                              />
-                            </div>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": <img
-                                src="https://placeimg.com/300/200/animals"
-                              />,
-                              "className": "CardImage",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              Object {
-                                "instance": <img
-                                  src="https://placeimg.com/300/200/animals"
-                                />,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "src": "https://placeimg.com/300/200/animals",
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  undefined,
-                                ],
-                                "type": "img",
-                              },
-                            ],
-                            "type": "div",
-                          },
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {},
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": <div
-                              class="CardPara"
-                            >
-                              <p>
-                                Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                              </p>
-                            </div>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": <p>
-                                Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                              </p>,
-                              "className": "CardPara",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              Object {
-                                "instance": <p>
-                                  Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.
-                                </p>,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  "Cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog poop on floor and watch human clean up, cough. Chase imaginary bugs rub face on everything 𝕄𝔼𝕆𝕎 the door is opening! how exciting oh, it's you, meh yet bleghbleghvomit my furball really tie the room together tuxedo cats always looking dapper and catto munch salmono.",
-                                ],
-                                "type": "p",
-                              },
-                            ],
-                            "type": "div",
-                          },
-                          "type": [Function],
-                        },
-                      ],
-                      "type": "li",
-                    },
-                  ],
-                  "type": "ul",
-                },
-              ],
-              "type": "div",
+            "props": Object {
+              "card": undefined,
             },
+            "ref": null,
+            "rendered": null,
             "type": [Function],
           },
         ],

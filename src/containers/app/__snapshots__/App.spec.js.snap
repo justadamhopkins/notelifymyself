@@ -19,9 +19,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <Layout>
-        <Form />
-        <Cards />
-        <Fetch />
+        <UNDEFINED />
+        <UNDEFINED />
       </Layout>,
     },
     "ref": null,
@@ -31,9 +30,8 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <Form />,
-          <Cards />,
-          <Fetch />,
+          <UNDEFINED />,
+          <UNDEFINED />,
         ],
       },
       "ref": null,
@@ -45,7 +43,14 @@ ShallowWrapper {
           "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Form)",
+            "type": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
@@ -54,16 +59,14 @@ ShallowWrapper {
           "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(Cards)",
+            "type": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
       "type": [Function],
@@ -77,9 +80,8 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <Layout>
-          <Form />
-          <Cards />
-          <Fetch />
+          <UNDEFINED />
+          <UNDEFINED />
         </Layout>,
       },
       "ref": null,
@@ -89,9 +91,8 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": Array [
-            <Form />,
-            <Cards />,
-            <Fetch />,
+            <UNDEFINED />,
+            <UNDEFINED />,
           ],
         },
         "ref": null,
@@ -103,7 +104,14 @@ ShallowWrapper {
             "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(Form)",
+              "type": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
@@ -112,16 +120,14 @@ ShallowWrapper {
             "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(Cards)",
+              "type": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
         ],
         "type": [Function],
