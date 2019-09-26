@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Card } from '../../components/card'
 
-class Cards extends Component {
+export class Cards extends Component {
   render() {
     const { cards } = this.props
     return (
