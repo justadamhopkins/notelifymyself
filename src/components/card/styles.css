@@ -1,6 +1,5 @@
 .Card {
   --space: 1rem;
-  overflow: hidden;
 }
 
 .Card > * {
@@ -17,9 +16,9 @@
 
 .cardWrap {
   max-width: 300px;
-  overflow: hidden;
+  position: relative;
   background-color: var(--white);
   color: var(--black);
   border: 1px solid black
 }
-  
+

@@ -309,12 +309,14 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "card": undefined,
+              "deletedCard": [Function],
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "card": undefined,
+              "deletedCard": [Function],
             },
             "ref": null,
             "return": [Circular],
@@ -336,13 +338,17 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": <Card />,
+            "children": <Card
+              deletedCard={[Function]}
+            />,
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": <Card />,
+            "children": <Card
+              deletedCard={[Function]}
+            />,
           },
           "ref": null,
           "return": [Circular],
@@ -633,6 +639,7 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
+      "deleteCard": [Function],
       "props": Object {},
       "refs": Object {},
       "state": null,
@@ -652,7 +659,9 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Card />,
+        "children": <Card
+          deletedCard={[Function]}
+        />,
       },
       "ref": null,
       "rendered": Array [
@@ -662,6 +671,7 @@ ReactWrapper {
           "nodeType": "function",
           "props": Object {
             "card": undefined,
+            "deletedCard": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -970,12 +980,14 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "card": undefined,
+                "deletedCard": [Function],
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
                 "card": undefined,
+                "deletedCard": [Function],
               },
               "ref": null,
               "return": [Circular],
@@ -997,13 +1009,17 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <Card />,
+              "children": <Card
+                deletedCard={[Function]}
+              />,
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <Card />,
+              "children": <Card
+                deletedCard={[Function]}
+              />,
             },
             "ref": null,
             "return": [Circular],
@@ -1294,6 +1310,7 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
+        "deleteCard": [Function],
         "props": Object {},
         "refs": Object {},
         "state": null,
@@ -1313,7 +1330,9 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Card />,
+          "children": <Card
+            deletedCard={[Function]}
+          />,
         },
         "ref": null,
         "rendered": Array [
@@ -1323,6 +1342,7 @@ ReactWrapper {
             "nodeType": "function",
             "props": Object {
               "card": undefined,
+              "deletedCard": [Function],
             },
             "ref": null,
             "rendered": null,

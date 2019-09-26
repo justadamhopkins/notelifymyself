@@ -4,14 +4,16 @@ import styles from './styles.css'
 import { CardTitle } from './cardTitle'
 import { CardImage } from './cardImage'
 import { CardPara } from './cardPara'
-const Card = ({ card }) => {
+import { CloseIcon } from '../closeIcon'
+const Card = ({ card, deletedCard }) => {
   if(!card) return false
   return (
     <div className={styles.Card}>
       <ul>
       {Object.keys(card).map((id) => {
         return (
-          <li className={styles.cardWrap} key={id}>
+          <li className={styles.cardWrap} key={id} data-id={id}>
+            <CloseIcon deleteCard={deletedCard}/>
             <CardTitle
               title={card[id].title}
               subtitle={card[id].subtitle}
@@ -27,7 +29,8 @@ const Card = ({ card }) => {
 }
 
 Card.propTypes = {
-  card: PropTypes.object
+  card: PropTypes.object,
+  deletedCard: PropTypes.func
 }
 
 export default Card
