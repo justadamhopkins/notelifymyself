@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { addCard } from '../../store/actions/card/cardActions'
 import { FormElements } from '../../components/formElements'
 
-class Form extends Component {
+export class Form extends Component {
   submit = async (values) => { // todo write test
     const { addCard } = this.props
     const response = await fetch(process.env.baseUrl + '/addCard', {
