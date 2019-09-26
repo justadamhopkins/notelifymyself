@@ -1,7 +1,8 @@
-// import { makeActionCreator } from '../../utils'
-import { ADD_CARD } from '../constants'
+import { makeActionCreator } from '../../utils'
+import { ADD_CARD, REMOVE_CARD } from '../constants'
 
-// export const addFormData = makeActionCreator(FORM_ADDDATA, '__v', 'id', 'title', 'subtitle', 'pictures', 'note')
+export const removeCard = makeActionCreator(REMOVE_CARD, 'id')
+console.log('TCL: removeCard', removeCard)
 
 export const addCard = (card) => {
   return {
