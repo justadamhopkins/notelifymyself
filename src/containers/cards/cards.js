@@ -5,11 +5,20 @@ import { Card } from '../../components/card'
 import { removeCard } from '../../store/actions/card/cardActions'
 
 export class Cards extends Component {
-  deleteCard = (event) => {
+  deleteCard = async (event) => {
     const { parentElement } = event.target
     const { id } = parentElement.parentElement.dataset
     const { removeCard } = this.props
     removeCard(id)
+    const response = await fetch(process.env.baseUrl + '/removeCard', {
+      method: 'POST',
+      body: JSON.stringify({ id }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    const data = await response.json()
+    return data
   }
 
   render() {
