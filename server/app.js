@@ -6,7 +6,7 @@ const routes = require('./routes/routes')
 const app = express()
 
 app.use(bodyParser.json())
-mongoose.connect(process.env.databaseUrl, { useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect(process.env.databaseUrl, { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
 
 const db = mongoose.connection
 
