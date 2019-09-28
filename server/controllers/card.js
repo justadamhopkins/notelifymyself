@@ -13,5 +13,13 @@ module.exports = {
     } catch (error) {
       response.status(500).send(error)
     }
+  },
+  removeCard: async (request, response) => {
+    try {
+      const remove = await Card.findOneAndRemove((request.body.id))
+      response.send(remove)
+    } catch (error) {
+      response.status(500).send(error)
+    }
   }
 }
