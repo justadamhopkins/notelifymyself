@@ -13,7 +13,6 @@ describe('@createReducers', () => {
 
   describe('when passed an action name', () => {
     it('should return a reducer function', () => {
-
       expect(mockReducer).toBeInstanceOf(Function)
     })
 

@@ -1,5 +1,5 @@
 import { addCard, removeCard } from './cardActions'
-import { ADD_CARD, REMOVE_CARD} from '../constants'
+import { ADD_CARD, REMOVE_CARD } from '../constants'
 
 describe('@cardActions', () => {
   it('should create an addCard action object', () => {
