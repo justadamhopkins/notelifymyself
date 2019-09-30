@@ -19,24 +19,6 @@ label {
   padding-bottom: 20px
 }
 
-.Form input, select, textarea {
-  display: block;
-  margin: 10px 0px 10px 0px;
-  appearance: none;
-  outline: none;
-  border: 1px solid var(--purple);
-  border-radius: 2px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.Form input, select {
-  height: 30px;
-  text-align: center;
-  color:var(--secondary);
-  opacity: 1;
-}
-
 .LeftBlock {
   display: flex;
   justify-content: space-between;
