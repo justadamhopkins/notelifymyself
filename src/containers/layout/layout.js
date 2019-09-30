@@ -10,10 +10,15 @@ const Layout = ({ children }) => {
     setDrawState(!sideDrawVisible)
   }
 
+  const addCategory = (vals) => {
+    console.log('TCL: addCategory -> vals', vals)
+  }
+
   return (
     <React.Fragment>
       <Sidedraw
-        isVisible={sideDrawVisible}/>
+        isVisible={sideDrawVisible}
+        addCategory={addCategory}/>
       <Wrapper
         children={children}
         isVisible={sideDrawVisible}
