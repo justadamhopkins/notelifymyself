@@ -1,1 +1,1 @@
-# notelifymyself a note taking app
+# notelifymyself A note taking app built using React, Redux and Express.
