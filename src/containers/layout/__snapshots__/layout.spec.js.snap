@@ -24,6 +24,7 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "addCategory": [Function],
           "isVisible": false,
         },
         "ref": null,
@@ -31,6 +32,27 @@ ReactWrapper {
           "instance": <div
             class="Sidedraw close"
           >
+            <form
+              class="Category"
+            >
+              <div>
+                <div>
+                  <label />
+                  <input
+                    name="Category"
+                    placeholder="Category"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <button
+                  class="Button category"
+                  type="submit"
+                >
+                  Add Category
+                </button>
+              </div>
+            </form>
             <ul
               class="NavigationItems"
             >
@@ -54,11 +76,280 @@ ReactWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <NavigationItems />,
+            "children": Array [
+              <Category
+                addCategory={[Function]}
+              />,
+              <NavigationItems />,
+            ],
             "className": "Sidedraw close",
           },
           "ref": null,
           "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "addCategory": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": [Function],
+                  "initialValues": Object {},
+                  "onSubmit": [Function],
+                  "validate": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": <form
+                    class="Category"
+                  >
+                    <div>
+                      <div>
+                        <label />
+                        <input
+                          name="Category"
+                          placeholder="Category"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                      <button
+                        class="Button category"
+                        type="submit"
+                      >
+                        Add Category
+                      </button>
+                    </div>
+                  </form>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div>
+                      <Field
+                        component={[Function]}
+                        label=""
+                        name="Category"
+                        type="text"
+                      />
+                      <Button
+                        buttonCopy="Add Category"
+                        buttonState="category"
+                        type="submit"
+                      />
+                    </div>,
+                    "className": "Category",
+                    "onSubmit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <div>
+                        <div>
+                          <label />
+                          <input
+                            name="Category"
+                            placeholder="Category"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                        <button
+                          class="Button category"
+                          type="submit"
+                        >
+                          Add Category
+                        </button>
+                      </div>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <Field
+                            component={[Function]}
+                            label=""
+                            name="Category"
+                            type="text"
+                          />,
+                          <Button
+                            buttonCopy="Add Category"
+                            buttonState="category"
+                            type="submit"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "component": [Function],
+                            "label": "",
+                            "name": "Category",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": undefined,
+                              "input": Object {
+                                "name": "Category",
+                                "onBlur": [Function],
+                                "onChange": [Function],
+                                "onFocus": [Function],
+                                "type": "text",
+                                "value": "",
+                              },
+                              "label": "",
+                              "meta": Object {
+                                "active": false,
+                                "data": Object {},
+                                "dirty": false,
+                                "dirtySinceLastSubmit": false,
+                                "error": undefined,
+                                "initial": undefined,
+                                "invalid": false,
+                                "length": undefined,
+                                "modified": false,
+                                "pristine": true,
+                                "submitError": undefined,
+                                "submitFailed": false,
+                                "submitSucceeded": false,
+                                "submitting": false,
+                                "touched": false,
+                                "valid": true,
+                                "validating": false,
+                                "visited": false,
+                              },
+                              "render": undefined,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": <div>
+                                <label />
+                                <input
+                                  name="Category"
+                                  placeholder="Category"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  <label>
+                                    
+                                  </label>,
+                                  <input
+                                    name="Category"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    placeholder="Category"
+                                    type="text"
+                                    value=""
+                                  />,
+                                ],
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": <label />,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "",
+                                  },
+                                  "ref": null,
+                                  "rendered": Array [
+                                    "",
+                                  ],
+                                  "type": "label",
+                                },
+                                Object {
+                                  "instance": <input
+                                    name="Category"
+                                    placeholder="Category"
+                                    type="text"
+                                    value=""
+                                  />,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "name": "Category",
+                                    "onBlur": [Function],
+                                    "onChange": [Function],
+                                    "onFocus": [Function],
+                                    "placeholder": "Category",
+                                    "type": "text",
+                                    "value": "",
+                                  },
+                                  "ref": null,
+                                  "rendered": Array [
+                                    undefined,
+                                  ],
+                                  "type": "input",
+                                },
+                              ],
+                              "type": "div",
+                            },
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "buttonCopy": "Add Category",
+                            "buttonState": "category",
+                            "type": "submit",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": <button
+                              class="Button category"
+                              type="submit"
+                            >
+                              Add Category
+                            </button>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Add Category",
+                              "className": "Button category",
+                              "type": "submit",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "Add Category",
+                            ],
+                            "type": "button",
+                          },
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "form",
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
             Object {
               "instance": null,
               "key": undefined,
@@ -460,6 +751,7 @@ ReactWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "addCategory": [Function],
             "isVisible": false,
           },
           "ref": null,
@@ -467,6 +759,27 @@ ReactWrapper {
             "instance": <div
               class="Sidedraw close"
             >
+              <form
+                class="Category"
+              >
+                <div>
+                  <div>
+                    <label />
+                    <input
+                      name="Category"
+                      placeholder="Category"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <button
+                    class="Button category"
+                    type="submit"
+                  >
+                    Add Category
+                  </button>
+                </div>
+              </form>
               <ul
                 class="NavigationItems"
               >
@@ -490,11 +803,280 @@ ReactWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <NavigationItems />,
+              "children": Array [
+                <Category
+                  addCategory={[Function]}
+                />,
+                <NavigationItems />,
+              ],
               "className": "Sidedraw close",
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "addCategory": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": [Function],
+                    "initialValues": Object {},
+                    "onSubmit": [Function],
+                    "validate": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": <form
+                      class="Category"
+                    >
+                      <div>
+                        <div>
+                          <label />
+                          <input
+                            name="Category"
+                            placeholder="Category"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                        <button
+                          class="Button category"
+                          type="submit"
+                        >
+                          Add Category
+                        </button>
+                      </div>
+                    </form>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div>
+                        <Field
+                          component={[Function]}
+                          label=""
+                          name="Category"
+                          type="text"
+                        />
+                        <Button
+                          buttonCopy="Add Category"
+                          buttonState="category"
+                          type="submit"
+                        />
+                      </div>,
+                      "className": "Category",
+                      "onSubmit": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <div>
+                          <div>
+                            <label />
+                            <input
+                              name="Category"
+                              placeholder="Category"
+                              type="text"
+                              value=""
+                            />
+                          </div>
+                          <button
+                            class="Button category"
+                            type="submit"
+                          >
+                            Add Category
+                          </button>
+                        </div>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <Field
+                              component={[Function]}
+                              label=""
+                              name="Category"
+                              type="text"
+                            />,
+                            <Button
+                              buttonCopy="Add Category"
+                              buttonState="category"
+                              type="submit"
+                            />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "component": [Function],
+                              "label": "",
+                              "name": "Category",
+                              "type": "text",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "children": undefined,
+                                "input": Object {
+                                  "name": "Category",
+                                  "onBlur": [Function],
+                                  "onChange": [Function],
+                                  "onFocus": [Function],
+                                  "type": "text",
+                                  "value": "",
+                                },
+                                "label": "",
+                                "meta": Object {
+                                  "active": false,
+                                  "data": Object {},
+                                  "dirty": false,
+                                  "dirtySinceLastSubmit": false,
+                                  "error": undefined,
+                                  "initial": undefined,
+                                  "invalid": false,
+                                  "length": undefined,
+                                  "modified": false,
+                                  "pristine": true,
+                                  "submitError": undefined,
+                                  "submitFailed": false,
+                                  "submitSucceeded": false,
+                                  "submitting": false,
+                                  "touched": false,
+                                  "valid": true,
+                                  "validating": false,
+                                  "visited": false,
+                                },
+                                "render": undefined,
+                              },
+                              "ref": null,
+                              "rendered": Object {
+                                "instance": <div>
+                                  <label />
+                                  <input
+                                    name="Category"
+                                    placeholder="Category"
+                                    type="text"
+                                    value=""
+                                  />
+                                </div>,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": Array [
+                                    <label>
+                                      
+                                    </label>,
+                                    <input
+                                      name="Category"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      placeholder="Category"
+                                      type="text"
+                                      value=""
+                                    />,
+                                  ],
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  Object {
+                                    "instance": <label />,
+                                    "key": undefined,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "",
+                                    },
+                                    "ref": null,
+                                    "rendered": Array [
+                                      "",
+                                    ],
+                                    "type": "label",
+                                  },
+                                  Object {
+                                    "instance": <input
+                                      name="Category"
+                                      placeholder="Category"
+                                      type="text"
+                                      value=""
+                                    />,
+                                    "key": undefined,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "name": "Category",
+                                      "onBlur": [Function],
+                                      "onChange": [Function],
+                                      "onFocus": [Function],
+                                      "placeholder": "Category",
+                                      "type": "text",
+                                      "value": "",
+                                    },
+                                    "ref": null,
+                                    "rendered": Array [
+                                      undefined,
+                                    ],
+                                    "type": "input",
+                                  },
+                                ],
+                                "type": "div",
+                              },
+                              "type": [Function],
+                            },
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "buttonCopy": "Add Category",
+                              "buttonState": "category",
+                              "type": "submit",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": <button
+                                class="Button category"
+                                type="submit"
+                              >
+                                Add Category
+                              </button>,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Add Category",
+                                "className": "Button category",
+                                "type": "submit",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                "Add Category",
+                              ],
+                              "type": "button",
+                            },
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "form",
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
               Object {
                 "instance": null,
                 "key": undefined,
