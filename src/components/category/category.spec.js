@@ -14,4 +14,11 @@ describe('<Category/>', () => {
     const category = mount(<Category {...props} />)
     expect(category.find('button').length).toEqual(1)
   })
+  it('should submit form data', () => {
+    const category = mount(<Category {...props} />)
+    const { addCategory } = props
+    jest.resetAllMocks()
+    category.find('form').simulate('submit')
+    expect(addCategory).toHaveBeenCalledTimes(1)
+  })
 })
