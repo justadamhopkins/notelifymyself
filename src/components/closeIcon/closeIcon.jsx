@@ -3,14 +3,14 @@ import PropTypes from 'prop-types'
 import closeIcon from '../../images/cross.svg'
 import styles from './styles.css'
 
-const CloseIcon = ({ deleteCard }) => {
+const CloseIcon = ({ deletedCard }) => {
   return (
-    <button onClick={deleteCard} className={styles.close}><img src={closeIcon} width='30' height='30'/></button>
+    <button onClick={deletedCard} className={styles.close}><img src={closeIcon} width='30' height='30'/></button>
   )
 }
 
 CloseIcon.propTypes = {
-  deleteCard: PropTypes.func
+  deletedCard: PropTypes.func
 }
 
 export default CloseIcon
