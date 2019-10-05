@@ -14,11 +14,5 @@
   margin: calc(var(--space) / 2);
 }
 
-.cardWrap {
-  max-width: 300px;
-  position: relative;
-  background-color: var(--white);
-  color: var(--black);
-  border: 1px solid black
-}
+
 
