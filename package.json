@@ -24,8 +24,8 @@
       "jsx"
     ],
     "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|svg)$": "<rootDir>/test/fileMock.js",
       "app/(.*)$": "<rootDir>/src/$1",
-      "\\.(jpg|jpeg|png|gif|webp|svg)$": "identity-obj-proxy",
       "\\.(css|scss)$": "identity-obj-proxy"
     }
   },
