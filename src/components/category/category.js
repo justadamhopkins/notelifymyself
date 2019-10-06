@@ -17,7 +17,7 @@ const Category = ({ addCategory }) => {
       <div>
         <Field
           component={Input}
-          name={'Category'}
+          name={'category'}
           type={'text'}
           label={''}/>
         <Button
