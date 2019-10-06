@@ -1,1497 +1,217 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Layout/> Should render component 1`] = `
-ReactWrapper {
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "getWrappingComponentRenderer": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {},
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "addCategory": [Function],
-          "isVisible": false,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": <div
-            class="Sidedraw close"
-          >
-            <form
-              class="Category"
-            >
-              <div>
-                <div>
-                  <label />
-                  <input
-                    name="Category"
-                    placeholder="Category"
-                    type="text"
-                    value=""
-                  />
-                </div>
-                <button
-                  class="Button category"
-                  type="submit"
-                >
-                  Add Category
-                </button>
-              </div>
-            </form>
-            <ul
-              class="NavigationItems"
-            >
-              <li>
-                Test 1
-              </li>
-              <li>
-                Test 1
-              </li>
-              <li>
-                Test 1
-              </li>
-              <li>
-                Test 1
-              </li>
-              <li>
-                Test 1
-              </li>
-            </ul>
-          </div>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Category
-                addCategory={[Function]}
-              />,
-              <NavigationItems />,
-            ],
-            "className": "Sidedraw close",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "addCategory": [Function],
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": [Function],
-                  "initialValues": Object {},
-                  "onSubmit": [Function],
-                  "validate": [Function],
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": <form
-                    class="Category"
-                  >
-                    <div>
-                      <div>
-                        <label />
-                        <input
-                          name="Category"
-                          placeholder="Category"
-                          type="text"
-                          value=""
-                        />
-                      </div>
-                      <button
-                        class="Button category"
-                        type="submit"
-                      >
-                        Add Category
-                      </button>
-                    </div>
-                  </form>,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <div>
-                      <Field
-                        component={[Function]}
-                        label=""
-                        name="Category"
-                        type="text"
-                      />
-                      <Button
-                        buttonCopy="Add Category"
-                        buttonState="category"
-                        type="submit"
-                      />
-                    </div>,
-                    "className": "Category",
-                    "onSubmit": [Function],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": <div>
-                        <div>
-                          <label />
-                          <input
-                            name="Category"
-                            placeholder="Category"
-                            type="text"
-                            value=""
-                          />
-                        </div>
-                        <button
-                          class="Button category"
-                          type="submit"
-                        >
-                          Add Category
-                        </button>
-                      </div>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <Field
-                            component={[Function]}
-                            label=""
-                            name="Category"
-                            type="text"
-                          />,
-                          <Button
-                            buttonCopy="Add Category"
-                            buttonState="category"
-                            type="submit"
-                          />,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "component": [Function],
-                            "label": "",
-                            "name": "Category",
-                            "type": "text",
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "children": undefined,
-                              "input": Object {
-                                "name": "Category",
-                                "onBlur": [Function],
-                                "onChange": [Function],
-                                "onFocus": [Function],
-                                "type": "text",
-                                "value": "",
-                              },
-                              "label": "",
-                              "meta": Object {
-                                "active": false,
-                                "data": Object {},
-                                "dirty": false,
-                                "dirtySinceLastSubmit": false,
-                                "error": undefined,
-                                "initial": undefined,
-                                "invalid": false,
-                                "length": undefined,
-                                "modified": false,
-                                "pristine": true,
-                                "submitError": undefined,
-                                "submitFailed": false,
-                                "submitSucceeded": false,
-                                "submitting": false,
-                                "touched": false,
-                                "valid": true,
-                                "validating": false,
-                                "visited": false,
-                              },
-                              "render": undefined,
-                            },
-                            "ref": null,
-                            "rendered": Object {
-                              "instance": <div>
-                                <label />
-                                <input
-                                  name="Category"
-                                  placeholder="Category"
-                                  type="text"
-                                  value=""
-                                />
-                              </div>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": Array [
-                                  <label>
-                                    
-                                  </label>,
-                                  <input
-                                    name="Category"
-                                    onBlur={[Function]}
-                                    onChange={[Function]}
-                                    onFocus={[Function]}
-                                    placeholder="Category"
-                                    type="text"
-                                    value=""
-                                  />,
-                                ],
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                Object {
-                                  "instance": <label />,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "children": "",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    "",
-                                  ],
-                                  "type": "label",
-                                },
-                                Object {
-                                  "instance": <input
-                                    name="Category"
-                                    placeholder="Category"
-                                    type="text"
-                                    value=""
-                                  />,
-                                  "key": undefined,
-                                  "nodeType": "host",
-                                  "props": Object {
-                                    "name": "Category",
-                                    "onBlur": [Function],
-                                    "onChange": [Function],
-                                    "onFocus": [Function],
-                                    "placeholder": "Category",
-                                    "type": "text",
-                                    "value": "",
-                                  },
-                                  "ref": null,
-                                  "rendered": Array [
-                                    undefined,
-                                  ],
-                                  "type": "input",
-                                },
-                              ],
-                              "type": "div",
-                            },
-                            "type": [Function],
-                          },
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "function",
-                          "props": Object {
-                            "buttonCopy": "Add Category",
-                            "buttonState": "category",
-                            "type": "submit",
-                          },
-                          "ref": null,
-                          "rendered": Object {
-                            "instance": <button
-                              class="Button category"
-                              type="submit"
-                            >
-                              Add Category
-                            </button>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Add Category",
-                              "className": "Button category",
-                              "type": "submit",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              "Add Category",
-                            ],
-                            "type": "button",
-                          },
-                          "type": [Function],
-                        },
-                      ],
-                      "type": "div",
-                    },
-                  ],
-                  "type": "form",
-                },
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {},
-              "ref": null,
-              "rendered": Object {
-                "instance": <ul
-                  class="NavigationItems"
-                >
-                  <li>
-                    Test 1
-                  </li>
-                  <li>
-                    Test 1
-                  </li>
-                  <li>
-                    Test 1
-                  </li>
-                  <li>
-                    Test 1
-                  </li>
-                  <li>
-                    Test 1
-                  </li>
-                </ul>,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <NavigationItem>
-                      Test 1
-                    </NavigationItem>,
-                    <NavigationItem>
-                      Test 1
-                    </NavigationItem>,
-                    <NavigationItem>
-                      Test 1
-                    </NavigationItem>,
-                    <NavigationItem>
-                      Test 1
-                    </NavigationItem>,
-                    <NavigationItem>
-                      Test 1
-                    </NavigationItem>,
-                  ],
-                  "className": "NavigationItems",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "children": "Test 1",
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": <li>
-                        Test 1
-                      </li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Test 1",
-                      ],
-                      "type": "li",
-                    },
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "children": "Test 1",
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": <li>
-                        Test 1
-                      </li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Test 1",
-                      ],
-                      "type": "li",
-                    },
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "children": "Test 1",
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": <li>
-                        Test 1
-                      </li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Test 1",
-                      ],
-                      "type": "li",
-                    },
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "children": "Test 1",
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": <li>
-                        Test 1
-                      </li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Test 1",
-                      ],
-                      "type": "li",
-                    },
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "children": "Test 1",
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": <li>
-                        Test 1
-                      </li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Test 1",
-                      ],
-                      "type": "li",
-                    },
-                    "type": [Function],
-                  },
-                ],
-                "type": "ul",
-              },
-              "type": [Function],
-            },
-          ],
-          "type": "div",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": undefined,
-          "isVisible": false,
-          "toggleSideDraw": [Function],
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": <div
-            class="Wrapper close"
-          >
-            <header
-              class="Header"
-            >
-              <div
-                class="Hamburger "
-              >
-                <div
-                  class="bar1"
-                />
-                <div
-                  class="bar2"
-                />
-                <div
-                  class="bar3"
-                />
-              </div>
-            </header>
-            <main />
-          </div>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Header
-                isVisible={false}
-                sideDrawToggle={[Function]}
-              />,
-              <main />,
-            ],
-            "className": "Wrapper close",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "isVisible": false,
-                "sideDrawToggle": [Function],
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": <header
-                  class="Header"
-                >
-                  <div
-                    class="Hamburger "
-                  >
-                    <div
-                      class="bar1"
-                    />
-                    <div
-                      class="bar2"
-                    />
-                    <div
-                      class="bar3"
-                    />
-                  </div>
-                </header>,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <Hamburger
-                    animateHamBurger={false}
-                    toggleSideDraw={[Function]}
-                  />,
-                  "className": "Header",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "animateHamBurger": false,
-                      "toggleSideDraw": [Function],
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": <div
-                        class="Hamburger "
-                      >
-                        <div
-                          class="bar1"
-                        />
-                        <div
-                          class="bar2"
-                        />
-                        <div
-                          class="bar3"
-                        />
-                      </div>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <div
-                            className="bar1"
-                          />,
-                          <div
-                            className="bar2"
-                          />,
-                          <div
-                            className="bar3"
-                          />,
-                        ],
-                        "className": "Hamburger ",
-                        "onClick": [Function],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": <div
-                            class="bar1"
-                          />,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "bar1",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            undefined,
-                          ],
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": <div
-                            class="bar2"
-                          />,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "bar2",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            undefined,
-                          ],
-                          "type": "div",
-                        },
-                        Object {
-                          "instance": <div
-                            class="bar3"
-                          />,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "bar3",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            undefined,
-                          ],
-                          "type": "div",
-                        },
-                      ],
-                      "type": "div",
-                    },
-                    "type": [Function],
-                  },
-                ],
-                "type": "header",
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": <main />,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-              },
-              "ref": null,
-              "rendered": Array [
-                undefined,
-              ],
-              "type": "main",
-            },
-          ],
-          "type": "div",
-        },
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
+<Layout
+  addCategory={[MockFunction]}
+  category={
     Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {},
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "addCategory": [Function],
-            "isVisible": false,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": <div
-              class="Sidedraw close"
-            >
-              <form
-                class="Category"
+      "111": Object {
+        "_id": 111,
+        "category": "Nature",
+      },
+    }
+  }
+>
+  <Sidedraw
+    addCategory={[Function]}
+    categoryList={
+      Object {
+        "111": Object {
+          "_id": 111,
+          "category": "Nature",
+        },
+      }
+    }
+    isVisible={false}
+  >
+    <div
+      className="Sidedraw close"
+    >
+      <Category
+        addCategory={[Function]}
+      >
+        <ReactFinalForm
+          initialValues={Object {}}
+          onSubmit={[Function]}
+          validate={[Function]}
+        >
+          <form
+            className="Category"
+            onSubmit={[Function]}
+          >
+            <div>
+              <Field
+                component={[Function]}
+                label=""
+                name="category"
+                type="text"
               >
-                <div>
+                <Input
+                  input={
+                    Object {
+                      "name": "category",
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "type": "text",
+                      "value": "",
+                    }
+                  }
+                  label=""
+                  meta={
+                    Object {
+                      "active": false,
+                      "data": Object {},
+                      "dirty": false,
+                      "dirtySinceLastSubmit": false,
+                      "error": undefined,
+                      "initial": undefined,
+                      "invalid": false,
+                      "length": undefined,
+                      "modified": false,
+                      "pristine": true,
+                      "submitError": undefined,
+                      "submitFailed": false,
+                      "submitSucceeded": false,
+                      "submitting": false,
+                      "touched": false,
+                      "valid": true,
+                      "validating": false,
+                      "visited": false,
+                    }
+                  }
+                >
                   <div>
                     <label />
                     <input
-                      name="Category"
-                      placeholder="Category"
+                      name="category"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder="category"
                       type="text"
                       value=""
                     />
                   </div>
-                  <button
-                    class="Button category"
-                    type="submit"
-                  >
-                    Add Category
-                  </button>
-                </div>
-              </form>
-              <ul
-                class="NavigationItems"
+                </Input>
+              </Field>
+              <Button
+                buttonCopy="Add Category"
+                buttonState="category"
+                type="submit"
               >
-                <li>
-                  Test 1
-                </li>
-                <li>
-                  Test 1
-                </li>
-                <li>
-                  Test 1
-                </li>
-                <li>
-                  Test 1
-                </li>
-                <li>
-                  Test 1
-                </li>
-              </ul>
-            </div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <Category
-                  addCategory={[Function]}
-                />,
-                <NavigationItems />,
-              ],
-              "className": "Sidedraw close",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "addCategory": [Function],
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": [Function],
-                    "initialValues": Object {},
-                    "onSubmit": [Function],
-                    "validate": [Function],
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": <form
-                      class="Category"
-                    >
-                      <div>
-                        <div>
-                          <label />
-                          <input
-                            name="Category"
-                            placeholder="Category"
-                            type="text"
-                            value=""
-                          />
-                        </div>
-                        <button
-                          class="Button category"
-                          type="submit"
-                        >
-                          Add Category
-                        </button>
-                      </div>
-                    </form>,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": <div>
-                        <Field
-                          component={[Function]}
-                          label=""
-                          name="Category"
-                          type="text"
-                        />
-                        <Button
-                          buttonCopy="Add Category"
-                          buttonState="category"
-                          type="submit"
-                        />
-                      </div>,
-                      "className": "Category",
-                      "onSubmit": [Function],
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": <div>
-                          <div>
-                            <label />
-                            <input
-                              name="Category"
-                              placeholder="Category"
-                              type="text"
-                              value=""
-                            />
-                          </div>
-                          <button
-                            class="Button category"
-                            type="submit"
-                          >
-                            Add Category
-                          </button>
-                        </div>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            <Field
-                              component={[Function]}
-                              label=""
-                              name="Category"
-                              type="text"
-                            />,
-                            <Button
-                              buttonCopy="Add Category"
-                              buttonState="category"
-                              type="submit"
-                            />,
-                          ],
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "component": [Function],
-                              "label": "",
-                              "name": "Category",
-                              "type": "text",
-                            },
-                            "ref": null,
-                            "rendered": Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "function",
-                              "props": Object {
-                                "children": undefined,
-                                "input": Object {
-                                  "name": "Category",
-                                  "onBlur": [Function],
-                                  "onChange": [Function],
-                                  "onFocus": [Function],
-                                  "type": "text",
-                                  "value": "",
-                                },
-                                "label": "",
-                                "meta": Object {
-                                  "active": false,
-                                  "data": Object {},
-                                  "dirty": false,
-                                  "dirtySinceLastSubmit": false,
-                                  "error": undefined,
-                                  "initial": undefined,
-                                  "invalid": false,
-                                  "length": undefined,
-                                  "modified": false,
-                                  "pristine": true,
-                                  "submitError": undefined,
-                                  "submitFailed": false,
-                                  "submitSucceeded": false,
-                                  "submitting": false,
-                                  "touched": false,
-                                  "valid": true,
-                                  "validating": false,
-                                  "visited": false,
-                                },
-                                "render": undefined,
-                              },
-                              "ref": null,
-                              "rendered": Object {
-                                "instance": <div>
-                                  <label />
-                                  <input
-                                    name="Category"
-                                    placeholder="Category"
-                                    type="text"
-                                    value=""
-                                  />
-                                </div>,
-                                "key": undefined,
-                                "nodeType": "host",
-                                "props": Object {
-                                  "children": Array [
-                                    <label>
-                                      
-                                    </label>,
-                                    <input
-                                      name="Category"
-                                      onBlur={[Function]}
-                                      onChange={[Function]}
-                                      onFocus={[Function]}
-                                      placeholder="Category"
-                                      type="text"
-                                      value=""
-                                    />,
-                                  ],
-                                },
-                                "ref": null,
-                                "rendered": Array [
-                                  Object {
-                                    "instance": <label />,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "children": "",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      "",
-                                    ],
-                                    "type": "label",
-                                  },
-                                  Object {
-                                    "instance": <input
-                                      name="Category"
-                                      placeholder="Category"
-                                      type="text"
-                                      value=""
-                                    />,
-                                    "key": undefined,
-                                    "nodeType": "host",
-                                    "props": Object {
-                                      "name": "Category",
-                                      "onBlur": [Function],
-                                      "onChange": [Function],
-                                      "onFocus": [Function],
-                                      "placeholder": "Category",
-                                      "type": "text",
-                                      "value": "",
-                                    },
-                                    "ref": null,
-                                    "rendered": Array [
-                                      undefined,
-                                    ],
-                                    "type": "input",
-                                  },
-                                ],
-                                "type": "div",
-                              },
-                              "type": [Function],
-                            },
-                            "type": [Function],
-                          },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "function",
-                            "props": Object {
-                              "buttonCopy": "Add Category",
-                              "buttonState": "category",
-                              "type": "submit",
-                            },
-                            "ref": null,
-                            "rendered": Object {
-                              "instance": <button
-                                class="Button category"
-                                type="submit"
-                              >
-                                Add Category
-                              </button>,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Add Category",
-                                "className": "Button category",
-                                "type": "submit",
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                "Add Category",
-                              ],
-                              "type": "button",
-                            },
-                            "type": [Function],
-                          },
-                        ],
-                        "type": "div",
-                      },
-                    ],
-                    "type": "form",
-                  },
-                  "type": [Function],
-                },
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {},
-                "ref": null,
-                "rendered": Object {
-                  "instance": <ul
-                    class="NavigationItems"
-                  >
-                    <li>
-                      Test 1
-                    </li>
-                    <li>
-                      Test 1
-                    </li>
-                    <li>
-                      Test 1
-                    </li>
-                    <li>
-                      Test 1
-                    </li>
-                    <li>
-                      Test 1
-                    </li>
-                  </ul>,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <NavigationItem>
-                        Test 1
-                      </NavigationItem>,
-                      <NavigationItem>
-                        Test 1
-                      </NavigationItem>,
-                      <NavigationItem>
-                        Test 1
-                      </NavigationItem>,
-                      <NavigationItem>
-                        Test 1
-                      </NavigationItem>,
-                      <NavigationItem>
-                        Test 1
-                      </NavigationItem>,
-                    ],
-                    "className": "NavigationItems",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": <li>
-                          Test 1
-                        </li>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Test 1",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Test 1",
-                        ],
-                        "type": "li",
-                      },
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": <li>
-                          Test 1
-                        </li>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Test 1",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Test 1",
-                        ],
-                        "type": "li",
-                      },
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": <li>
-                          Test 1
-                        </li>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Test 1",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Test 1",
-                        ],
-                        "type": "li",
-                      },
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": <li>
-                          Test 1
-                        </li>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Test 1",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Test 1",
-                        ],
-                        "type": "li",
-                      },
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "children": "Test 1",
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": <li>
-                          Test 1
-                        </li>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Test 1",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Test 1",
-                        ],
-                        "type": "li",
-                      },
-                      "type": [Function],
-                    },
-                  ],
-                  "type": "ul",
-                },
-                "type": [Function],
-              },
-            ],
-            "type": "div",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": undefined,
-            "isVisible": false,
-            "toggleSideDraw": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": <div
-              class="Wrapper close"
-            >
-              <header
-                class="Header"
-              >
-                <div
-                  class="Hamburger "
+                <button
+                  className="Button category"
+                  type="submit"
                 >
-                  <div
-                    class="bar1"
-                  />
-                  <div
-                    class="bar2"
-                  />
-                  <div
-                    class="bar3"
-                  />
-                </div>
-              </header>
-              <main />
-            </div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <Header
-                  isVisible={false}
-                  sideDrawToggle={[Function]}
-                />,
-                <main />,
-              ],
-              "className": "Wrapper close",
+                  Add Category
+                </button>
+              </Button>
+            </div>
+          </form>
+        </ReactFinalForm>
+      </Category>
+      <NavigationItems
+        categoryList={
+          Object {
+            "111": Object {
+              "_id": 111,
+              "category": "Nature",
             },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "isVisible": false,
-                  "sideDrawToggle": [Function],
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": <header
-                    class="Header"
-                  >
-                    <div
-                      class="Hamburger "
-                    >
-                      <div
-                        class="bar1"
-                      />
-                      <div
-                        class="bar2"
-                      />
-                      <div
-                        class="bar3"
-                      />
-                    </div>
-                  </header>,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <Hamburger
-                      animateHamBurger={false}
-                      toggleSideDraw={[Function]}
-                    />,
-                    "className": "Header",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "animateHamBurger": false,
-                        "toggleSideDraw": [Function],
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": <div
-                          class="Hamburger "
-                        >
-                          <div
-                            class="bar1"
-                          />
-                          <div
-                            class="bar2"
-                          />
-                          <div
-                            class="bar3"
-                          />
-                        </div>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            <div
-                              className="bar1"
-                            />,
-                            <div
-                              className="bar2"
-                            />,
-                            <div
-                              className="bar3"
-                            />,
-                          ],
-                          "className": "Hamburger ",
-                          "onClick": [Function],
+          }
+        }
+      >
+        <ul
+          className="NavigationItems"
+        >
+          <NavigationItem
+            key="111"
+            listItem="Nature"
+          >
+            <li>
+              <ForwardRef
+                to="/category/Nature"
+              >
+                <Location>
+                  <LocationProvider
+                    history={
+                      Object {
+                        "_onTransitionComplete": [Function],
+                        "listen": [Function],
+                        "location": Object {
+                          "assign": [Function],
+                          "hash": "",
+                          "host": "localhost",
+                          "hostname": "localhost",
+                          "href": "http://localhost/",
+                          "key": "initial",
+                          "origin": "http://localhost",
+                          "pathname": "/",
+                          "port": "",
+                          "protocol": "http:",
+                          "reload": [Function],
+                          "replace": [Function],
+                          "search": "",
+                          "state": null,
+                          "toString": [Function],
                         },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": <div
-                              class="bar1"
-                            />,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "className": "bar1",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              undefined,
-                            ],
-                            "type": "div",
-                          },
-                          Object {
-                            "instance": <div
-                              class="bar2"
-                            />,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "className": "bar2",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              undefined,
-                            ],
-                            "type": "div",
-                          },
-                          Object {
-                            "instance": <div
-                              class="bar3"
-                            />,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "className": "bar3",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              undefined,
-                            ],
-                            "type": "div",
-                          },
-                        ],
-                        "type": "div",
-                      },
-                      "type": [Function],
-                    },
-                  ],
-                  "type": "header",
-                },
-                "type": [Function],
-              },
-              Object {
-                "instance": <main />,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": undefined,
-                },
-                "ref": null,
-                "rendered": Array [
-                  undefined,
-                ],
-                "type": "main",
-              },
-            ],
-            "type": "div",
-          },
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-  Symbol(enzyme.__linkedRoots__): Array [],
-  Symbol(enzyme.__unrendered__): <Layout />,
-  Symbol(enzyme.__updatedBy__): null,
-}
+                        "navigate": [Function],
+                        "transitioning": false,
+                      }
+                    }
+                  >
+                    <a
+                      href="/category/Nature"
+                      onClick={[Function]}
+                    >
+                      Nature
+                    </a>
+                  </LocationProvider>
+                </Location>
+              </ForwardRef>
+            </li>
+          </NavigationItem>
+        </ul>
+      </NavigationItems>
+    </div>
+  </Sidedraw>
+  <Wrapper
+    isVisible={false}
+    toggleSideDraw={[Function]}
+  >
+    <div
+      className="Wrapper close"
+    >
+      <Header
+        isVisible={false}
+        sideDrawToggle={[Function]}
+      >
+        <header
+          className="Header"
+        >
+          <Hamburger
+            animateHamBurger={false}
+            toggleSideDraw={[Function]}
+          >
+            <div
+              className="Hamburger "
+              onClick={[Function]}
+            >
+              <div
+                className="bar1"
+              />
+              <div
+                className="bar2"
+              />
+              <div
+                className="bar3"
+              />
+            </div>
+          </Hamburger>
+        </header>
+      </Header>
+      <main />
+    </div>
+  </Wrapper>
+</Layout>
 `;
