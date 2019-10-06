@@ -5,7 +5,8 @@ import { Sidedraw } from '.'
 describe('@Sidedraw', () => {
   const props = {
     addCategory: jest.fn(),
-    isVisible: false
+    isVisible: false,
+    categoryList: { 111: { category: 'Nature', _id: 111 } }
   }
   it('should render the component', () => {
     const sidebar = mount(<Sidedraw {...props}/>)
