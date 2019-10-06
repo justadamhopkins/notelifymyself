@@ -4,7 +4,7 @@ import { Cards } from './cards'
 
 describe('<Cards/>', () => {
   beforeEach(() => {
-    jest.restoreAllMocks()
+    jest.resetAllMocks()
   })
   const props = {
     cards: {
