@@ -29,3 +29,10 @@ Form input, select {
   color:var(--secondary);
   opacity: 1;
 }
+
+a {
+  color:var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+}
