@@ -7,10 +7,8 @@ exports[`<App/> Should render component 1`] = `
       <Connect(Form)
         path="/category/:categoryId"
       />
-      <Connect(Cards)
-        path="/category/:categoryId"
-      />
     </Router>
+    <Connect(Cards) />
   </Connect(Layout)>
 </div>
 `;
