@@ -11,8 +11,8 @@ const App = () => {
       <Layout>
         <Router>
             <Form path="/category/:categoryId" />
-            <Cards path="/category/:categoryId"/>
         </Router>
+        <Cards/>
       </Layout>
     </div>
   )
