@@ -5,7 +5,8 @@ const cardSchema = new Schema({
   title: String,
   subtitle: String,
   pictures: String,
-  note: String
+  note: String,
+  catId: String
 })
 
 module.exports = cardSchema
