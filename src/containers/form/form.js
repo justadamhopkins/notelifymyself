@@ -6,8 +6,8 @@ import { FormElements } from '../../components/formElements'
 
 export class Form extends Component {
   submit = async (values) => {
-    const { addCardEle } = this.props
-    addCardEle(values)
+    const { addCardEle, categoryId } = this.props
+    addCardEle({ ...values, catId: categoryId })
   }
 
   render() {
@@ -22,7 +22,8 @@ export class Form extends Component {
 }
 
 Form.propTypes = {
-  addCardEle: PropTypes.func
+  addCardEle: PropTypes.func,
+  categoryId: PropTypes.string
 }
 
 export default connect(

@@ -20,7 +20,7 @@ export const addCardEle = (values) => {
       }
     })
     const data = await response.json()
-    dispatch(addCard(data))
+    dispatch(addCard({ ...data, catId: values.catId }))
   }
 }
 
