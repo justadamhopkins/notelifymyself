@@ -4,6 +4,9 @@ exports[`<App/> Should render component 1`] = `
 <div>
   <Connect(Layout)>
     <Router>
+      <Home
+        path="/"
+      />
       <Connect(Form)
         path="/category/:categoryId"
       />
