@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
+import { Cards } from '../cards'
 import { addCardEle } from '../../store/actions/card/cardActions'
 import { FormElements } from '../../components/formElements'
 
@@ -12,10 +13,12 @@ export class Form extends Component {
 
   render() {
     const { submit } = this
+    const { categoryId } = this.props
     return (
       <section>
         <FormElements
           send={submit}/>
+          <Cards category={categoryId}/>
       </section>
     )
   }
