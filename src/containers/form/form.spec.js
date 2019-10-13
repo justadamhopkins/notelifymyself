@@ -1,6 +1,8 @@
 import React from 'react'
-import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 import { Form } from './form'
+import { FormElements } from '../../components/formElements'
+import { Cards } from '../cards'
 
 
 describe('@Form', () => {
@@ -10,13 +12,18 @@ describe('@Form', () => {
   beforeEach(() => {
     jest.clearAllMocks()
   })
-  it('should render the component', () => {
-    const form = mount(<Form/>)
-    expect(form.find('.Form').exists()).toBe(true)
+  it('should render the form component', () => {
+    const form = shallow(<Form/>)
+    console.log(form.debug())
+    expect(form.find(FormElements).exists()).toBe(true)
+  })
+  it('should render the card component', () => {
+    const form = shallow(<Form/>)
+    expect(form.find(Cards).exists()).toBe(true)
   })
   it('should add card', () => {
-    const form = mount(<Form {...props}/>)
-    form.find('form').simulate('submit')
+    const form = shallow(<Form {...props}/>)
+    form.find(FormElements).shallow().shallow().find('form').simulate('submit')
     expect(props.addCardEle).toHaveBeenCalledTimes(1)
   })
 })
