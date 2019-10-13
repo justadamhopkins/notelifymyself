@@ -10,6 +10,24 @@ export const addCard = (card) => {
   }
 }
 
+export const fetchCards = (catId) => {
+  return async dispatch => {
+    const response = await fetch(process.env.baseUrl + '/fetchCategory', {
+      method: 'POST',
+      body: JSON.stringify({ catId }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    const data = await response.json()
+    const arrayToObject = (array) => array.reduce((obj, item) => {
+      return { ...obj, [item._id]: { ...item } }
+    }, {})
+    const result = arrayToObject(data)
+    dispatch(addCard({ ...result, list: true }))
+  }
+}
+
 export const addCardEle = (values) => {
   return async dispatch => {
     const response = await fetch(process.env.baseUrl + '/addCard', {
