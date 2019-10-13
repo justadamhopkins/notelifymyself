@@ -21,5 +21,13 @@ module.exports = {
     } catch (error) {
       response.status(500).send(error)
     }
+  },
+  fetchCategory: async (request, response) => {
+    try {
+      const categoryCards = await Card.find(({ catId: request.body.catId }))
+      response.send(categoryCards)
+    } catch (error) {
+      response.status(500).send(error)
+    }
   }
 }
