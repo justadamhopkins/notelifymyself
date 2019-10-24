@@ -1,7 +1,7 @@
 import fetchMock from 'fetch-mock'
 import configureMockStore from 'redux-mock-store'
 import thunk from 'redux-thunk'
-import { addCard, removeCard, removeCardEle, addCardEle } from './cardActions'
+import { addCard, removeCard, removeCardEle, addCardEle, fetchCards } from './cardActions'
 import { ADD_CARD, REMOVE_CARD } from '../constants'
 
 const middlewares = [thunk]
@@ -50,8 +50,10 @@ describe('@cardActions', () => {
       const expectedActions = [
         { type: ADD_CARD, payload: { mockedData } }
       ]
+
       const thunk = addCardEle(mockedData)
       await thunk(store.dispatch)
+
       expect(store.getActions()).toEqual(expectedActions)
     })
     it('removes card from store on successful response from server', async () => {
@@ -64,8 +66,38 @@ describe('@cardActions', () => {
       const expectedActions = [
         { type: REMOVE_CARD, payload: { id: mockData } }
       ]
+
       const thunk = removeCardEle(mockData)
       await thunk(store.dispatch)
+
+      expect(store.getActions()).toEqual(expectedActions)
+    })
+    it('fetchs card by category', async () => {
+      const store = mockStore({ cards: { } })
+      const data = [
+        {
+          _id: '5db1ffc14e92f11f0b2d7951',
+          pictures: 'animals',
+          title: 'effw'
+        }
+      ]
+      const expected = {
+        '5db1ffc14e92f11f0b2d7951': {
+          _id: '5db1ffc14e92f11f0b2d7951',
+          pictures: 'animals',
+          title: 'effw'
+        }
+      }
+      const catId = 'nature'
+      fetchMock.postOnce(process.env.baseUrl + '/fetchCategory', {
+        body: data,
+        headers: { 'content-type': 'application/json' }
+      })
+      const expectedActions = [{ type: 'ADD_CARD', payload: { cards: expected, list: true } }]
+
+      const thunk = fetchCards(catId)
+      await thunk(store.dispatch)
+
       expect(store.getActions()).toEqual(expectedActions)
     })
   })
