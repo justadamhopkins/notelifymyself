@@ -1,7 +1,7 @@
 export const addCard = (state, action) => {
   const { payload } = action
   if (payload.list) {
-    return { ...state, ...payload }
+    return { ...state, ...payload.cards }
   }
   return { ...state, [payload._id]: { ...payload } }
 }
