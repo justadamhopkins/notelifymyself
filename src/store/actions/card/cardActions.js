@@ -1,4 +1,5 @@
 import { makeActionCreator } from '../../utils'
+import { createCardList } from '../utils'
 import { ADD_CARD, REMOVE_CARD } from '../constants'
 
 export const removeCard = makeActionCreator(REMOVE_CARD, 'id')
@@ -20,11 +21,8 @@ export const fetchCards = (catId) => {
       }
     })
     const data = await response.json()
-    const arrayToObject = (array) => array.reduce((obj, item) => {
-      return { ...obj, [item._id]: { ...item } }
-    }, {})
-    const result = arrayToObject(data)
-    dispatch(addCard({ ...result, list: true }))
+    const result = createCardList(data)
+    dispatch(addCard({ cards: { ...result }, list: true }))
   }
 }
 
