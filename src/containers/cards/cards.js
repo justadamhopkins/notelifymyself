@@ -12,6 +12,11 @@ export class Cards extends Component {
     removeCardEle(id)
   }
 
+  componentDidMount() {
+    const { category, fetchCards } = this.props
+    fetchCards(category)
+  }
+
   componentDidUpdate(prevProps) {
     const { category, fetchCards } = this.props
     if (category !== prevProps.category) fetchCards(category)
