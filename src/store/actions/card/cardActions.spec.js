@@ -1,8 +1,8 @@
 import fetchMock from 'fetch-mock'
 import configureMockStore from 'redux-mock-store'
 import thunk from 'redux-thunk'
-import { addCard, removeCard, removeCardEle, addCardEle, fetchCards } from './cardActions'
-import { ADD_CARD, REMOVE_CARD } from '../constants'
+import { addCard, removeCard, removeCardEle, addCardEle, fetchCards, resetCard } from './cardActions'
+import { ADD_CARD, REMOVE_CARD, RESET_CARD } from '../constants'
 
 const middlewares = [thunk]
 const mockStore = configureMockStore(middlewares)
@@ -20,7 +20,7 @@ describe('@cardActions', () => {
     const result = addCard(data)
     expect(result).toEqual(expected)
   })
-  it('should create an card with an id thats being remvoed', () => {
+  it('should create an card with an id thats being removed', () => {
     const data = '12345'
     const expected = {
       type: REMOVE_CARD,
@@ -29,6 +29,17 @@ describe('@cardActions', () => {
       }
     }
     const result = removeCard(data)
+    expect(result).toEqual(expected)
+  })
+  it('should create an object that resets the state', () => {
+    const data = {}
+    const expected = {
+      type: RESET_CARD,
+      payload: {
+        resetState: {}
+      }
+    }
+    const result = resetCard(data)
     expect(result).toEqual(expected)
   })
   describe('@Card async actions', () => {
@@ -72,7 +83,7 @@ describe('@cardActions', () => {
 
       expect(store.getActions()).toEqual(expectedActions)
     })
-    it('fetchs card by category', async () => {
+    it('fetches card by category', async () => {
       const store = mockStore({ cards: { } })
       const data = [
         {
@@ -93,7 +104,27 @@ describe('@cardActions', () => {
         body: data,
         headers: { 'content-type': 'application/json' }
       })
-      const expectedActions = [{ type: 'ADD_CARD', payload: { cards: expected, list: true } }]
+      const expectedActions = [
+        { type: 'RESET_CARD', payload: { resetState: {} } },
+        { type: 'ADD_CARD', payload: { cards: expected, list: true } }
+      ]
+
+      const thunk = fetchCards(catId)
+      await thunk(store.dispatch)
+
+      expect(store.getActions()).toEqual(expectedActions)
+    })
+    it('does not add card by category is there are no cards', async () => {
+      const store = mockStore({ cards: { } })
+      const data = []
+      const catId = 'nature'
+      fetchMock.postOnce(process.env.baseUrl + '/fetchCategory', {
+        body: data,
+        headers: { 'content-type': 'application/json' }
+      })
+      const expectedActions = [
+        { type: 'RESET_CARD', payload: { resetState: {} } }
+      ]
 
       const thunk = fetchCards(catId)
       await thunk(store.dispatch)
