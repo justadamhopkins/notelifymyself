@@ -1,8 +1,10 @@
 import { makeActionCreator } from '../../utils'
 import { createCardList } from '../utils'
-import { ADD_CARD, REMOVE_CARD } from '../constants'
+import { ADD_CARD, REMOVE_CARD, RESET_CARD } from '../constants'
 
 export const removeCard = makeActionCreator(REMOVE_CARD, 'id')
+
+export const resetCard = makeActionCreator(RESET_CARD, 'resetState')
 
 export const addCard = (card) => {
   return {
@@ -11,8 +13,10 @@ export const addCard = (card) => {
   }
 }
 
+
 export const fetchCards = (catId) => {
   return async dispatch => {
+    dispatch(resetCard({}))
     const response = await fetch(process.env.baseUrl + '/fetchCategory', {
       method: 'POST',
       body: JSON.stringify({ catId }),
@@ -21,6 +25,7 @@ export const fetchCards = (catId) => {
       }
     })
     const data = await response.json()
+    if (data.length === 0) return
     const result = createCardList(data)
     dispatch(addCard({ cards: { ...result }, list: true }))
   }
