@@ -1,4 +1,4 @@
-import { addCard, removeCard } from './card'
+import { addCard, removeCard } from '.'
 
 describe('@addCard', () => {
   describe('when adding a card', () => {
@@ -16,7 +16,22 @@ describe('@addCard', () => {
       const expected = { 123: { title: 'Mr', subtitle: 'Adam', _id: '123' } }
       expect(addMyCard).toEqual(expected)
     })
-    it('should add the component to the store', () => {
+    it('should add component list to store', () => {
+      const mockState = {}
+      const action = {
+        type: 'ADD_CARD',
+        payload: {
+          cards: {
+            123: { title: 'Mr', subtitle: 'Adam', _id: '123' }
+          },
+          list: true
+        }
+      }
+      const addMyCard = addCard(mockState, action)
+      const expected = { 123: { title: 'Mr', subtitle: 'Adam', _id: '123' } }
+      expect(addMyCard).toEqual(expected)
+    })
+    it('should remove the component to the store', () => {
       const mockState = { 123: { title: 'Mr', subtitle: 'Adam', _id: '123' } }
       const action = {
         type: 'REMOVE_CARD',
