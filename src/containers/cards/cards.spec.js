@@ -17,7 +17,8 @@ describe('<Cards/>', () => {
       }
     },
     deleteCard: jest.fn(),
-    removeCardEle: jest.fn()
+    removeCardEle: jest.fn(),
+    fetchCards: jest.fn()
   }
   it('Should render component', () => {
     const cards = mount(<Cards {...props}/>)

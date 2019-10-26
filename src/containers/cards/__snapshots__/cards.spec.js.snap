@@ -14,6 +14,21 @@ exports[`<Cards/> Should render component 1`] = `
     }
   }
   deleteCard={[MockFunction]}
+  fetchCards={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "isThrow": false,
+          "value": undefined,
+        },
+      ],
+    }
+  }
   removeCardEle={[MockFunction]}
 >
   <div>
