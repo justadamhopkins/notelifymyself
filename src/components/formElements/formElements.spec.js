@@ -26,7 +26,7 @@ describe('@FormElements', () => {
     const formeles = mount(<FormElements {...props}/>)
     expect(formeles.find('button').length).toEqual(1)
   })
-  it('should trigger submit function on click', () => {
+  xit('should trigger submit function on click', () => {
     const formeles = mount(<FormElements {...props}/>)
     const { send } = props
     jest.resetAllMocks()
