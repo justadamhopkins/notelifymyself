@@ -19,6 +19,13 @@ label {
   padding-bottom: 20px
 }
 
+.Form span  {
+  color: var(--primary);
+  font-size: 14px;
+  padding-bottom: 10px;
+  display: block;
+}
+
 .LeftBlock {
   display: flex;
   justify-content: space-between;
@@ -37,7 +44,7 @@ label {
   margin-left: 5px;
 }
 
-@media (max-width: 340px)  {
+@media (max-width: 600px)  {
   .LeftBlock {
     flex-direction: column;
   }
