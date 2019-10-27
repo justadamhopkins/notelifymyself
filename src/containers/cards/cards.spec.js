@@ -16,6 +16,7 @@ describe('<Cards/>', () => {
         note: 'i love you'
       }
     },
+    category: 'nature',
     deleteCard: jest.fn(),
     removeCardEle: jest.fn(),
     fetchCards: jest.fn()
@@ -47,5 +48,25 @@ describe('<Cards/>', () => {
     cards.find('.close').simulate('click', mockedEvent)
     expect(props.removeCardEle).toHaveBeenCalledTimes(1)
     expect(props.removeCardEle).toHaveBeenCalledWith(11)
+  })
+  it('should fetch category on componentDidMount', () => {
+    mount(<Cards {...props}/>)
+    expect(props.fetchCards).toHaveBeenCalledTimes(1)
+    expect(props.fetchCards).toHaveBeenCalledWith('nature')
+  })
+  it('should fetch category on route change with componentDidUpdate', () => {
+    const updatedProps = {
+      ...props,
+      category: 'animals',
+      cards: {
+        ...props.cards
+      }
+    }
+    const cards = mount(<Cards {...props}/>)
+    expect(props.fetchCards).toHaveBeenCalled()
+    expect(props.fetchCards).toHaveBeenCalledWith('nature')
+    cards.setProps(updatedProps)
+    expect(props.fetchCards).toHaveBeenCalled()
+    expect(props.fetchCards).toHaveBeenCalledWith('animals')
   })
 })
