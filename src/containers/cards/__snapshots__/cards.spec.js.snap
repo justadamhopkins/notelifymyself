@@ -13,12 +13,13 @@ exports[`<Cards/> Should render component 1`] = `
       },
     }
   }
+  category="nature"
   deleteCard={[MockFunction]}
   fetchCards={
     [MockFunction] {
       "calls": Array [
         Array [
-          undefined,
+          "nature",
         ],
       ],
       "results": Array [
