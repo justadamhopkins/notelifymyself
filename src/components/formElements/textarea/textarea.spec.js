@@ -9,6 +9,10 @@ describe('@TextArea', () => {
     label: 'my label',
     input: {
       onChange: jest.fn()
+    },
+    meta: {
+      error: {},
+      touched: {}
     }
   }
   it('should the component', () => {
