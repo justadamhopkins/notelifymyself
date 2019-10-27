@@ -12,15 +12,18 @@ const FormElements = ({ send }) => {
     <Form
       onSubmit={send}
       initialValues={{ pictures: 'animals' }}
-      validate={() => { // pass values
-        // const errors = {}
-        // if (!values.email) {
-        //   errors.email = 'Please enter a valid email address.'
-        // }
-        // if (!values.password) {
-        //   errors.password = 'Please enter a password of at least 6 characters'
-        // }
-        // return errors
+      validate={(values) => { // pass values
+        const errors = {}
+        if (!values.title) {
+          errors.title = 'Please enter a title'
+        }
+        if (!values.subtitle) {
+          errors.subtitle = 'Please enter a subtitle'
+        }
+        if (!values.note) {
+          errors.note = 'Please enter a note'
+        }
+        return errors
       }}>
     {({ handleSubmit }) => (
       <form className={styles.Form} onSubmit={handleSubmit}>
