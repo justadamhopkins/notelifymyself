@@ -1,3 +1,3 @@
-import { addCategory } from './categoryActions'
+import { addCategory, addCategoryEle } from './categoryActions'
 
-export { addCategory }
+export { addCategory, addCategoryEle }
