@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { addCategory } from '../../store/actions/category'
+import { addCategoryEle } from '../../store/actions/category'
 import { Sidedraw } from '../../components/navigation/sidedraw'
 import { Wrapper } from '../../components/wrapper'
 
@@ -16,11 +16,9 @@ export class Layout extends Component {
     this.setState({ sideDrawVisible: !sideDrawVisible })
   }
 
-  addCategory = (vals) => {
-    const { addCategory } = this.props
-    const _id = Math.random().toString().replace('0.', '')
-    const mergeId = { ...vals, _id }
-    addCategory(mergeId)
+  addCategory = (catId) => {
+    const { addCategoryEle } = this.props
+    addCategoryEle(catId)
   }
 
   render() {
@@ -44,7 +42,7 @@ export class Layout extends Component {
 
 Layout.propTypes = {
   children: PropTypes.node,
-  addCategory: PropTypes.func,
+  addCategoryEle: PropTypes.func,
   category: PropTypes.object
 }
 
@@ -52,5 +50,5 @@ export default connect(
   (state) => ({
     category: state.category
   }),
-  { addCategory }
+  { addCategoryEle }
 )(Layout)
