@@ -2,7 +2,7 @@
 
 exports[`<Layout/> Should render component 1`] = `
 <Layout
-  addCategory={[MockFunction]}
+  addCategoryEle={[MockFunction]}
   category={
     Object {
       "111": Object {

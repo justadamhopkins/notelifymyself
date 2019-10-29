@@ -8,7 +8,7 @@ describe('<Layout/>', () => {
     jest.resetAllMocks()
   })
   const props = {
-    addCategory: jest.fn(),
+    addCategoryEle: jest.fn(),
     category: { 111: { category: 'Nature', _id: 111 } }
   }
   it('Should render component', () => {
@@ -30,6 +30,6 @@ describe('<Layout/>', () => {
   it('should add category', () => {
     const layout = mount(<Layout {...props}/>)
     layout.find('.category').simulate('submit')
-    expect(props.addCategory).toHaveBeenCalledTimes(1)
+    expect(props.addCategoryEle).toHaveBeenCalledTimes(1)
   })
 })
