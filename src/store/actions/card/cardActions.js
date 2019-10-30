@@ -17,13 +17,7 @@ export const addCard = (card) => {
 export const fetchCards = (catId) => {
   return async dispatch => {
     dispatch(resetCard({}))
-    const response = await fetch(process.env.baseUrl + '/fetchCategory', {
-      method: 'POST',
-      body: JSON.stringify({ catId }),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
+    const response = await fetch(process.env.baseUrl + `/category/${catId}`)
     const data = await response.json()
     if (data.length === 0) return
     const result = createCardList(data)
