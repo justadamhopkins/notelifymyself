@@ -100,10 +100,7 @@ describe('@cardActions', () => {
         }
       }
       const catId = 'nature'
-      fetchMock.postOnce(process.env.baseUrl + '/fetchCategory', {
-        body: data,
-        headers: { 'content-type': 'application/json' }
-      })
+      fetchMock.get(process.env.baseUrl + `/category/${catId}`, data)
       const expectedActions = [
         { type: 'RESET_CARD', payload: { resetState: {} } },
         { type: 'ADD_CARD', payload: { cards: expected, list: true } }
@@ -118,10 +115,7 @@ describe('@cardActions', () => {
       const store = mockStore({ cards: { } })
       const data = []
       const catId = 'nature'
-      fetchMock.postOnce(process.env.baseUrl + '/fetchCategory', {
-        body: data,
-        headers: { 'content-type': 'application/json' }
-      })
+      fetchMock.get(process.env.baseUrl + `/category/${catId}`, data)
       const expectedActions = [
         { type: 'RESET_CARD', payload: { resetState: {} } }
       ]
