@@ -20,7 +20,7 @@ describe('@categoryActions', () => {
     const result = addCategory(data)
     expect(result).toEqual(expected)
   })
-  describe('@Category async actions', () => {
+  describe('Category async actions', () => {
     const OLD_ENV = process.env
     process.env.baseUrl = 'http://localhost:3001/api'
     beforeEach(() => {
@@ -29,7 +29,7 @@ describe('@categoryActions', () => {
     afterEach(() => {
       fetchMock.reset()
     })
-    fit('adds category to store on successful response from server', async () => {
+    it('adds category to store on successful response from server', async () => {
       const catId = 'nature'
       const store = mockStore({ category: { } })
       fetchMock.post(process.env.baseUrl + '/category', {
