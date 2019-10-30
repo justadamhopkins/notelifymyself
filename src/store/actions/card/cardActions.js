@@ -27,7 +27,7 @@ export const fetchCards = (catId) => {
 
 export const addCardEle = (values) => {
   return async dispatch => {
-    const response = await fetch(process.env.baseUrl + '/addCard', {
+    const response = await fetch(process.env.baseUrl + '/cards/add', {
       method: 'POST',
       body: JSON.stringify(values),
       headers: {
@@ -41,7 +41,7 @@ export const addCardEle = (values) => {
 
 export const removeCardEle = (id) => {
   return async dispatch => {
-    const response = await fetch(process.env.baseUrl + '/removeCard', {
+    const response = await fetch(process.env.baseUrl + '/cards/remove', {
       method: 'POST',
       body: JSON.stringify({ id }),
       headers: { 'Content-Type': 'application/json' }
