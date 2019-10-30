@@ -14,7 +14,6 @@ describe('@Form', () => {
   })
   it('should render the form component', () => {
     const form = shallow(<Form/>)
-    console.log(form.debug())
     expect(form.find(FormElements).exists()).toBe(true)
   })
   it('should render the card component', () => {
