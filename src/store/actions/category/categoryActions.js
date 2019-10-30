@@ -9,7 +9,7 @@ export const addCategory = (category) => {
 
 export const addCategoryEle = (catId) => {
   return async dispatch => {
-    const response = await fetch(process.env.baseUrl + '/addCategory', {
+    const response = await fetch(process.env.baseUrl + '/category', {
       method: 'POST',
       body: JSON.stringify({ ...catId }),
       headers: {
@@ -17,7 +17,6 @@ export const addCategoryEle = (catId) => {
       }
     })
     const data = await response.json()
-    console.log('TCL: addCategoryEle -> data', data)
     dispatch(addCategory(data))
   }
 }
