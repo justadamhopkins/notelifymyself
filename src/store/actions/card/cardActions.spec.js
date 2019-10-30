@@ -54,7 +54,7 @@ describe('@cardActions', () => {
     it('adds card to store on sucessfull response from server', async () => {
       const mockedData = { id: 1111, name: 'adam' }
       const store = mockStore({ cards: { } })
-      fetchMock.postOnce(process.env.baseUrl + '/addCard', {
+      fetchMock.post(process.env.baseUrl + '/cards/add', {
         body: { mockedData },
         headers: { 'content-type': 'application/json' }
       })
@@ -70,7 +70,7 @@ describe('@cardActions', () => {
     it('removes card from store on successful response from server', async () => {
       const mockData = '4444'
       const store = mockStore({ cards: { } })
-      fetchMock.postOnce(process.env.baseUrl + '/removeCard', {
+      fetchMock.post(process.env.baseUrl + '/cards/remove', {
         body: { _id: mockData },
         headers: { 'content-type': 'application/json' }
       })
