@@ -68,7 +68,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new Dotenv({
-      path: '.env.prd'
+      path: '.env.prod'
     }),
     new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
