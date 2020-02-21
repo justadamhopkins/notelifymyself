@@ -8,7 +8,7 @@ const app = express()
 
 app.use(bodyParser.json())
 
-if ((env === 'dev') | (env === 'dev')) {
+if ((env === 'dev') | (env === 'prod')) {
   mongoose.connect(process.env.databaseUrl, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
