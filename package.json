@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --harmony clientServer/index.js",
-    "server": "node-env-run -E .env.dev server/app.js --exec nodemon",
+    "server": "node-env-run -E .env.dev server/start.js --exec nodemon",
     "start": "concurrently \"npm:server\" \"npm:dev\"",
     "test:watch": "jest --watch",
     "test": "jest --maxWorkers 3",
@@ -19,12 +19,28 @@
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/"
     ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
     "moduleFileExtensions": [
       "js",
       "jsx"
+    ],
+    "projects": [
+      {
+        "displayName": "dom",
+        "testEnvironment": "jsdom",
+        "snapshotSerializers": [
+          "enzyme-to-json/serializer"
+        ],
+        "testMatch": [
+          "**/**/*.test.js?(x)"
+        ]
+      },
+      {
+        "displayName": "node",
+        "testEnvironment": "node",
+        "testMatch": [
+          "**/**/*.test.node.js?(x)"
+        ]
+      }
     ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|svg)$": "<rootDir>/test/fileMock.js",
@@ -113,6 +129,7 @@
     "redux-mock-store": "^1.5.3",
     "sass-loader": "^7.3.1",
     "style-loader": "^0.21.0",
+    "supertest": "^4.0.2",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8",
     "webpack-dev-middleware": "^3.7.1",
