@@ -3,17 +3,25 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const routes = require('./routes/routes')
 
+const env = process.env.enviroment
 const app = express()
 
 app.use(bodyParser.json())
-mongoose.connect(process.env.databaseUrl, { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
 
-const db = mongoose.connection
+if ((env === 'dev') | (env === 'dev')) {
+  mongoose.connect(process.env.databaseUrl, {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useFindAndModify: false
+  })
 
-db.on('error', console.error.bind(console, 'connection error:'))
-db.once('open', () => {
-  console.log('we\'re connected!')
-})
+  const db = mongoose.connection
+
+  db.on('error', console.error.bind(console, 'connection error:'))
+  db.once('open', () => {
+    console.log("we're connected!")
+  })
+}
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', process.env.frontend)
@@ -28,5 +36,4 @@ app.use((req, res, next) => {
 
 routes.routeList(app)
 
-app.listen(3001, () =>
-  console.log('Express server is running on localhost:3001'))
+module.exports = app
