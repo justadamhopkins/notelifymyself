@@ -116,7 +116,7 @@
     "jest": "^23.6.0",
     "nock": "^11.3.5",
     "node-env-run": "^3.0.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.19.2",
     "postcss": "^7.0.18",
     "postcss-font-magician": "^2.2.2",
